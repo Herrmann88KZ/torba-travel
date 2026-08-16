@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html><head>
+<script>window.__resources = {"hero-altai":"assets/hero-altai.jpg","ext-street":"assets/ext-street.jpg","int-kitchen-open":"assets/int-kitchen-open.jpg","det-cutlery":"assets/det-cutlery.jpg","det-spices":"assets/det-spices.jpg","torba-kemperboks-v-bagazhnike":"assets/torba-kemperboks-v-bagazhnike.png","torba-kemperboks-na-otdyhe":"assets/torba-kemperboks-na-otdyhe.jpg","int-bed":"assets/int-bed.jpg","ext-city":"assets/ext-city.jpg","det-storage":"assets/det-storage.jpg","int-galley":"assets/int-galley.jpg","det-gas":"assets/det-gas.jpg","ext-forest":"assets/ext-forest.jpg","int-sink":"assets/int-sink.jpg","https://unpkg.com/react@18.3.1/umd/react.production.min.js":"assets/react.production.min.js","https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js":"assets/react-dom.production.min.js"};</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>window.__res = function(n, e){ var r = window.__resources; return (r && r[n]) || ('assets/' + n + '.' + (e || 'jpg')); };</script>
+
+<script src="assets/4d417440.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>/* Organic — design-system tokens and component classes. This file is the source of truth for the system's look; retune it here and see readme.md. */
+/* latin-ext */
+@font-face {
+  font-family: 'Caprasimo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/430b411f.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Caprasimo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fff1f5c9.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/15f94955.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/5f869b25.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/15f94955.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/5f869b25.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/15f94955.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/5f869b25.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+:root {
+  --color-bg: #f5ead8;
+  --color-surface: #ebddc5;
+  --color-text: #201e1d;
+  --color-accent: #c67139;
+  --color-accent-2: #7a8a5e;
+  --color-divider: color-mix(in srgb, #201e1d 16%, transparent);
+
+  /* Tonal ramps — generated in OKLCH on one shared lightness scale, so the
+     same step of any role matches the others in visual value. */
+  --color-neutral-100: #f9f4ed;
+  --color-neutral-200: #eee7db;
+  --color-neutral-300: #dcd3c4;
+  --color-neutral-400: #c0b6a5;
+  --color-neutral-500: #a19786;
+  --color-neutral-600: #82796a;
+  --color-neutral-700: #645c50;
+  --color-neutral-800: #474238;
+  --color-neutral-900: #2e2b25;
+
+  --color-accent-100: #fff2eb;
+  --color-accent-200: #ffe1d0;
+  --color-accent-300: #ffc6a5;
+  --color-accent-400: #f6a06b;
+  --color-accent-500: #d67f48;
+  --color-accent-600: #b2622d;
+  --color-accent-700: #8c491a;
+  --color-accent-800: #643312;
+  --color-accent-900: #402310;
+
+  --color-accent-2-100: #f0fae1;
+  --color-accent-2-200: #e1eecc;
+  --color-accent-2-300: #ccdbb2;
+  --color-accent-2-400: #aebf92;
+  --color-accent-2-500: #8fa073;
+  --color-accent-2-600: #728157;
+  --color-accent-2-700: #56633f;
+  --color-accent-2-800: #3d472b;
+  --color-accent-2-900: #272e1b;
+
+  --font-heading: "Caprasimo", system-ui, sans-serif;
+  --font-heading-weight: 400;
+  --font-body: "Figtree", system-ui, sans-serif;
+
+  --space-1: 4.4px;
+  --space-2: 8.8px;
+  --space-3: 13.2px;
+  --space-4: 17.6px;
+  --space-6: 26.4px;
+  --space-8: 35.2px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+
+  /* Elevation — derived from the ground: soft ink-tinted shadows on a
+     light theme, a hairline edge + ambient darkness on a dark one. */
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #2e2b25 14%, transparent);
+  --shadow-md: 0 3px 10px color-mix(in srgb, #2e2b25 16%, transparent);
+  --shadow-lg: 0 12px 32px color-mix(in srgb, #2e2b25 22%, transparent);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: var(--font-heading-weight); }
+
+.washed{filter:saturate(0.6) contrast(0.85) brightness(1.1) opacity(0.94)}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Components — built with the tokens above. Plain CSS
+   on plain HTML: no JavaScript, no build step. Each class is documented in
+   readme.md and demonstrated in foundations/ and components/.
+   ══════════════════════════════════════════════════════════════════════ */
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-size: 15px; line-height: 1.55; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 var(--space-2);
+}
+h1 { font-size: 42px; }
+h2 { font-size: 32px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }
+h5 { font-size: 16px; }
+h6 { font-size: 13px; }
+h6 { letter-spacing: 0.08em; text-transform: uppercase; }
+p { margin: 0 0 var(--space-3); }
+a { color: var(--color-accent); text-underline-offset: 3px; }
+img { display: block; max-width: 100%; }
+figure { margin: 0; }
+figcaption {
+  font-size: 11px; margin-top: var(--space-1);
+  color: color-mix(in srgb, var(--color-text) 55%, transparent);
+}
+.text-muted { color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+::selection { background: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+
+/* — rules — */
+.hr {
+  height: 1px; border: 0; margin: var(--space-4) 0;
+  background: var(--color-divider);
+}
+
+/* — buttons — */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 14px; line-height: 1.2; color: var(--color-text); /* matches the .input's 14px —
+     the pair sits side by side in sign-up rows */
+  background: transparent; border: 1px solid transparent;
+  padding: var(--space-2) calc(var(--space-3) * 1.2);
+  border-radius: var(--radius-md);
+}
+.btn svg { display: block; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn-primary { background: var(--color-accent); color: var(--color-bg); }
+.btn-primary:hover { background: var(--color-accent-600); }
+.btn-primary:active { background: var(--color-accent-700); }
+.btn-secondary { border-color: var(--color-divider); }
+.btn-secondary:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.btn-secondary:active { background: color-mix(in srgb, var(--color-text) 14%, transparent); }
+.btn-ghost { color: var(--color-accent); padding-inline: var(--space-1); }
+.btn-ghost:hover { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn-ghost:active { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
+.btn-icon { width: 36px; height: 36px; padding: 0; }
+.btn-block { width: 100%; margin-top: var(--space-2); }
+
+/* — forms — */
+.field > label {
+  display: block; font-size: 12px; margin-bottom: 5px;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.input {
+  width: 100%; min-height: 36px; padding: 6px 10px; font: inherit;
+  font-size: 14px; color: var(--color-text); caret-color: var(--color-accent);
+  background: var(--color-surface);
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+}
+.input:hover { border-color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.input:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+textarea.input { min-height: 90px; resize: vertical; }
+.radio { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 14px; }
+.radio input, .seg-opt input {
+  position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none;
+}
+.radio .dot {
+  width: 16px; height: 16px; flex: none; border-radius: 50%;
+  border: 1.5px solid var(--color-divider);
+}
+.radio:hover .dot { border-color: var(--color-accent); }
+.radio input:checked + .dot {
+  border-color: var(--color-accent); background: var(--color-accent);
+  box-shadow: inset 0 0 0 4px var(--color-bg);
+}
+.radio input:focus-visible + .dot { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.seg {
+  display: inline-flex; overflow: hidden;
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+}
+.seg-opt {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; font-size: 13px; cursor: pointer;
+}
+.seg-opt + .seg-opt { border-left: 1px solid var(--color-divider); }
+.seg-opt:has(input:checked) { background: var(--color-accent); color: var(--color-bg); }
+.seg-opt:not(:has(input:checked)):hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.seg-opt:has(input:focus-visible) { outline: 2px solid var(--color-accent); outline-offset: -2px; }
+
+/* — cards — */
+.card {
+  display: flex; flex-direction: column; gap: var(--space-2);
+  padding: var(--space-3); border-radius: var(--radius-md); background: var(--color-surface);
+}
+.card-kicker { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent); }
+.card-title {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 17px; line-height: 1.2;
+}
+.card-body { margin: 0; font-size: 13px; opacity: 0.8; flex: 1; }
+.card-meta {
+  display: flex; align-items: center; gap: 6px; font-size: 11px;
+  color: color-mix(in srgb, var(--color-text) 50%, transparent);
+}
+.elev-sm { box-shadow: var(--shadow-sm); }
+.elev-md { box-shadow: var(--shadow-md); }
+.elev-lg { box-shadow: var(--shadow-lg); }
+
+/* — tags — */
+.tag {
+  display: inline-flex; align-items: center; font-size: 11px;
+  letter-spacing: 0.02em; padding: 3px 10px;
+  border-radius: calc(var(--radius-md) * 0.75);
+}
+.tag-accent { background: var(--color-accent-100); color: var(--color-accent-800); }
+.tag-accent-2 { background: var(--color-accent-2-100); color: var(--color-accent-2-800); }
+.tag-neutral { background: var(--color-neutral-100); color: var(--color-neutral-800); }
+.tag-outline { border: 1px solid var(--color-accent); color: var(--color-accent); }
+
+/* — navigation — */
+.nav {
+  display: flex; align-items: center; gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: none;
+}
+.nav-brand {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 18px; margin-right: auto;
+}
+.nav a { color: inherit; text-decoration: none; font-size: 14px; }
+.nav a:hover, .nav a[aria-current='page'] { color: var(--color-accent); }
+
+/* — tables — */
+.table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.table th {
+  text-align: left; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 60%, transparent);
+  padding: var(--space-2); border-bottom: 1px solid var(--color-divider);
+}
+.table td {
+  padding: var(--space-2);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-text) 8%, transparent);
+}
+.table tbody tr:hover { background: color-mix(in srgb, var(--color-text) 4%, transparent); }
+
+/* — dialog — */
+.dialog-backdrop {
+  position: fixed; inset: 0; display: grid; place-items: center;
+  padding: var(--space-4);
+  background: color-mix(in srgb, var(--color-neutral-900) 50%, transparent);
+}
+.dialog {
+  width: min(440px, 100%); display: flex; flex-direction: column; gap: var(--space-3);
+  padding: var(--space-4); border-radius: var(--radius-lg);
+  background: var(--color-surface); box-shadow: var(--shadow-lg);
+}
+.dialog-title {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 20px;
+}
+.dialog-body { font-size: 14px; opacity: 0.85; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: var(--space-2); margin-top: var(--space-2); }
+
+/* — rounded frame: everything softens, small controls go pill — */
+.card, .dialog { border-radius: calc(var(--radius-lg) * 1.15); }
+.btn, .tag, .seg, .input { border-radius: 999px; }
+.input { padding-inline: 14px; }
+
+</style>
+  <script src="assets/afff02d3.js"></script>
+  <script src="assets/070c42ff.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/7c943e4f.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/97cf963d.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/18494d71.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/9ce7558d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/7c943e4f.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/97cf963d.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/18494d71.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/9ce7558d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/7c943e4f.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/97cf963d.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/18494d71.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/9ce7558d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/009e7d74.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/a18fb4a5.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/e6e3c16c.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/468f9bfd.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/bf42cbc9.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/d31507ce.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/009e7d74.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/a18fb4a5.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/e6e3c16c.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/468f9bfd.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/bf42cbc9.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/d31507ce.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+  <style>
+    /* Торба · Brand Design System v1.0 · цветовая схема «Омут» */
+    :root {
+      --color-bg: #F5EAD8; --color-surface: #EBDDC5; --color-text: #201E1D;
+      --color-accent: #C67139; --color-accent-2: #1E3D48;
+      --color-divider: color-mix(in srgb, #201e1d 16%, transparent);
+      --color-neutral-100:#FAF5EC; --color-neutral-200:#F0E8DA; --color-neutral-300:#DED3C0;
+      --color-neutral-400:#C2B7A3; --color-neutral-500:#A39885; --color-neutral-600:#6A6050;
+      --color-neutral-700:#5F5646; --color-neutral-800:#494236; --color-neutral-900:#2E2B24;
+      --color-accent-100:#FFF2EB; --color-accent-200:#FFE1D0; --color-accent-300:#FFC6A5;
+      --color-accent-400:#F6A06B; --color-accent-500:#D67F48; --color-accent-600:#B2622D;
+      --color-accent-700:#8C491A; --color-accent-800:#643312; --color-accent-900:#402310;
+      --color-accent-2-100:#F1F5F6; --color-accent-2-200:#E2EAEC; --color-accent-2-300:#B4CBD2;
+      --color-accent-2-400:#86A9B4; --color-accent-2-500:#5D8794; --color-accent-2-600:#3E6B79;
+      --color-accent-2-700:#2A5361; --color-accent-2-800:#234A56; --color-accent-2-900:#1E3D48;
+      --shadow-sm: 0 1px 2px rgba(21,44,53,.14);
+      --shadow-md: 0 3px 10px rgba(21,44,53,.16);
+      --shadow-lg: 0 12px 32px rgba(21,44,53,.22);
+      --font-heading: "Golos Text", system-ui, sans-serif; --font-heading-weight: 600;
+      --font-body: "Golos Text", system-ui, sans-serif;
+      --font-mono: "JetBrains Mono", ui-monospace, monospace;
+      --radius-sm: 8px; --radius-md: 14px; --radius-lg: 16px; --r-plane: 28px;
+    }
+    * { box-sizing: border-box; }
+    html, body { overflow-x: clip; }
+    body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+    img { display: block; max-width: 100%; }
+    h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.01em; }
+    a { color: var(--color-accent-2-700); }
+    a:hover { color: var(--color-accent); }
+    html { scroll-behavior: smooth; }
+    .btn { border-radius: 14px; font-family: var(--font-body); font-weight: 600; }
+    .input, select.input, textarea.input { border-radius: 14px; font-family: var(--font-body); }
+    .field label { font-family: var(--font-mono); font-weight: 500; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-neutral-600); }
+    .tag { border-radius: 8px; font-family: var(--font-mono); font-weight: 500; font-size: 11px; letter-spacing: 0.14em; }
+    .table th { font-family: var(--font-mono); font-weight: 500; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; }
+    :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+    /* адаптив: узкие экраны 360–768 — без горизонтального скролла и обрезанных блоков */
+    @media (max-width: 900px) {
+      #road-wrap { height: auto !important; }
+      #road-grid { position: static !important; height: auto !important; grid-template-columns: 1fr !important; padding: 24px 20px !important; }
+      #road-art { height: 300px !important; }
+      #device-grid { grid-template-columns: 1fr !important; }
+      #builder-grid { grid-template-columns: 1fr !important; }
+      #builder-aside { position: static !important; }
+    }
+  </style>
+</helmet>
+
+<div style="min-height:100vh">
+
+  <header style="position:sticky;top:0;z-index:60;background:color-mix(in srgb, var(--color-bg) 92%, transparent);backdrop-filter:blur(12px) saturate(1.1);border-bottom:1px solid var(--color-divider)">
+    <div style="max-width:1320px;margin:0 auto;min-height:74px;padding:10px 30px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+      <a href="#top" sc-camel-on-click="{{ goHome }}" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--color-text);flex-shrink:0">
+        <img src="assets/de64c868.png" alt="Знак Торба — гора с дорогой" style="width:52px;height:auto;flex-shrink:0">
+
+        <span style="display:flex;flex-direction:column;gap:3px">
+          <span style="font-family:var(--font-heading);font-weight:600;font-size:23px;letter-spacing:0.09em;line-height:1">ТОРБА</span>
+          <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600);line-height:1">твоё путешествие</span>
+        </span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:18px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end">
+        <a href="#catalog" sc-camel-on-click="{{ goCatalog }}" style="font-size:14px;font-weight:600;color:var(--color-text);text-decoration:none">Модели</a>
+        <a href="#device" sc-camel-on-click="{{ jumpDevice }}" style="font-size:14px;font-weight:600;color:var(--color-text);text-decoration:none">Схема</a>
+        <a href="#builder" sc-camel-on-click="{{ goBuilder }}" style="font-size:14px;font-weight:600;color:var(--color-text);text-decoration:none">Конструктор</a>
+        <a href="#craft" sc-camel-on-click="{{ jumpCraft }}" style="font-size:14px;font-weight:600;color:var(--color-text);text-decoration:none">Производство</a>
+        <a href="#contacts" sc-camel-on-click="{{ jumpContacts }}" style="font-size:14px;font-weight:600;color:var(--color-text);text-decoration:none">Контакты</a>
+        <span style="width:1px;height:22px;background:var(--color-divider)"></span>
+        <div style="display:flex;align-items:center;gap:8px">
+          <a href="tel:+79138808749" style="font-size:14px;font-weight:600;color:var(--color-text);text-decoration:none;white-space:nowrap">+7 913 880 87 49</a>
+          <a href="https://t.me/+Q2qzEDzVxZ81ZjFi" target="_blank" rel="noreferrer" aria-label="Telegram" style="width:32px;height:32px;border-radius:10px;background:var(--color-accent-2-200);display:flex;align-items:center;justify-content:center;text-decoration:none" style-hover="background:var(--color-accent-2-300)">
+            <svg width="16" height="16" sc-camel-view-box="0 0 16 16" fill="none" aria-hidden="true"><path d="M14.5 2.2 1.9 7.1c-.5.2-.5.8 0 .9l2.9.9 1.1 3.4c.1.4.6.5.9.2l1.6-1.5 3 2.2c.4.3.9.1 1-.4l2.4-9.6c.1-.6-.4-1.2-1.3-1zM6.3 9.4l6.1-4.1-4.7 5.1-.1 1.9-1.3-2.9z" fill="#1E3D48"></path></svg>
+          </a>
+          <a href="https://vk.ru/torba.travel" target="_blank" rel="noreferrer" aria-label="ВКонтакте" style="width:32px;height:32px;border-radius:10px;background:var(--color-accent-2-200);display:flex;align-items:center;justify-content:center;text-decoration:none" style-hover="background:var(--color-accent-2-300)">
+            <svg width="16" height="16" sc-camel-view-box="0 0 16 16" fill="none" aria-hidden="true"><path d="M8.6 11.4c-3.4 0-5.5-2.4-5.6-6.3h1.8c.1 2.9 1.4 4.1 2.4 4.4V5.1h1.7v2.6c1-.1 2-1.2 2.4-2.6h1.7c-.3 1.4-1.2 2.5-1.9 2.9.7.4 1.8 1.4 2.2 3.1h-1.9c-.3-1-1.2-1.9-2.5-2v2h-.3z" fill="#1E3D48"></path></svg>
+          </a>
+        </div>
+        <a href="#contact" sc-camel-on-click="{{ jumpContact }}" class="btn btn-primary" style="padding:11px 20px;font-size:14px">Рассчитать</a>
+      </nav>
+    </div>
+  </header>
+
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <main data-screen-label="Главная">
+
+    <section id="top" style="position:relative;min-height:min(880px, 92vh);display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden">
+      <img class="washed" src="assets/hero-altai.jpg" alt="Кемпер Торба на берегу Телецкого озера" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg, color-mix(in srgb, var(--color-accent-2-900) 48%, transparent) 0%, color-mix(in srgb, var(--color-accent-2-900) 12%, transparent) 38%, color-mix(in srgb, var(--color-accent-2-900) 86%, transparent) 100%)"></div>
+
+      <div style="position:absolute;top:26px;right:30px;z-index:3">
+        <a href="https://vk.ru/torba.travel" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:10px;padding:9px 16px 9px 10px;border-radius:14px;background:color-mix(in srgb, var(--color-accent-2-900) 46%, transparent);backdrop-filter:blur(8px);border:1px solid color-mix(in srgb, var(--color-neutral-100) 34%, transparent);color:var(--color-neutral-100);text-decoration:none;font-size:13px;font-weight:600" style-hover="background:color-mix(in srgb, var(--color-accent-700) 82%, transparent)">
+          <span style="width:24px;height:24px;border-radius:7px;background:var(--color-accent);display:flex;align-items:center;justify-content:center">
+            <svg width="12" height="12" sc-camel-view-box="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 2l7 4-7 4V2z" fill="#f5ead8"></path></svg>
+          </span>
+          Дневник мастерской во ВКонтакте
+        </a>
+      </div>
+
+      <div style="position:relative;z-index:2;max-width:1320px;margin:0 auto;width:100%;padding:0 30px 40px">
+        <span class="tag" style="background:color-mix(in srgb, var(--color-accent-2-700) 90%, transparent);color:var(--color-neutral-100);letter-spacing:0.14em;text-transform:uppercase;font-weight:600;padding:6px 14px">Мастерская ТОРБА · Томск</span>
+        <h1 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(46px, 7.4vw, 108px);line-height:0.96;letter-spacing:-0.025em;color:var(--color-neutral-100);margin:18px 0 0;max-width:14ch;text-wrap:balance">Твоё путешествие</h1>
+        <p style="font-size:clamp(16px, 1.3vw, 21px);line-height:1.5;color:color-mix(in srgb, var(--color-neutral-100) 90%, transparent);max-width:58ch;margin:20px 0 0">Кемперы-прицепы — компактный дом на колёсах. Кемпербоксы в багажник — мобильный модуль для автомобиля.</p>
+
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:34px">
+          <a href="#dir-trailer" sc-camel-on-click="{{ jumpTrailer }}" style="display:inline-flex;align-items:center;gap:14px;padding:15px 22px;border-radius:14px;background:var(--color-accent);color:var(--color-bg);text-decoration:none;font-family:var(--font-heading);font-weight:600;font-size:15px" style-hover="background:var(--color-accent-600)">На прицепе <span style="font-size:17px">→</span></a>
+          <a href="#dir-box" sc-camel-on-click="{{ jumpBox }}" style="display:inline-flex;align-items:center;gap:14px;padding:15px 22px;border-radius:14px;background:color-mix(in srgb, var(--color-neutral-100) 92%, transparent);color:var(--color-text);text-decoration:none;font-family:var(--font-heading);font-weight:600;font-size:15px" style-hover="background:var(--color-neutral-100)">В багажник <span style="font-size:17px">→</span></a>
+          <a href="#builder" sc-camel-on-click="{{ goBuilder }}" style="display:inline-flex;align-items:center;gap:14px;padding:15px 22px;border-radius:14px;background:transparent;border:1.5px solid color-mix(in srgb, var(--color-neutral-100) 60%, transparent);color:var(--color-neutral-100);text-decoration:none;font-family:var(--font-heading);font-weight:600;font-size:15px" style-hover="background:color-mix(in srgb, var(--color-neutral-100) 16%, transparent)">Конструктор <span style="font-size:17px">→</span></a>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:10px;margin-top:38px;color:color-mix(in srgb, var(--color-neutral-100) 72%, transparent);font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500">
+          <span style="width:34px;height:1px;background:currentColor"></span>Телецкое озеро, первый снег в мае
+        </div>
+      </div>
+    </section>
+
+    <section id="lines" style="max-width:1320px;margin:0 auto;padding:70px 30px 0;scroll-margin-top:90px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(340px, 100%), 1fr));gap:22px">
+        <article id="dir-trailer" sc-camel-on-click="{{ goCatalogTrailer }}" style="background:var(--color-accent-2-900);color:var(--color-neutral-100);border-radius:var(--r-plane);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;scroll-margin-top:100px" style-hover="box-shadow:var(--shadow-lg)">
+          <div style="height:280px;overflow:hidden"><img class="washed" src="assets/ext-street.jpg" alt="Кемпер-прицеп Торба" style="width:100%;height:100%;object-fit:cover"></div>
+          <div style="padding:28px 30px 30px;display:flex;flex-direction:column;gap:14px;flex:1">
+            <span class="tag" style="align-self:flex-start;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;background:color-mix(in srgb, var(--color-neutral-100) 18%, transparent);color:var(--color-neutral-100)">Купил — поставил — используешь</span>
+            <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(26px, 2.6vw, 34px);line-height:1.06;margin:0">На прицепе</h2>
+            <p style="margin:0;font-size:15.5px;line-height:1.6;color:color-mix(in srgb, var(--color-neutral-100) 84%, transparent)">Компактный дом на колёсах из фанеры 21 мм со стеклопластиковым корпусом: спальня внутри, кухонный блок снаружи. Вода, раковина, матрас и электрика уже в базе. Тянет любой легковой автомобиль, права категории B.</p>
+            <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px">
+              <li style="display:flex;gap:11px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-300);font-weight:600">·</span>Спальное место 1400 × 2000 с матрасом</li>
+              <li style="display:flex;gap:11px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-300);font-weight:600">·</span>Кухонный блок: раковина, бак 20 л, насос</li>
+              <li style="display:flex;gap:11px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-300);font-weight:600">·</span>Одна ось, рессорная подвеска</li>
+            </ul>
+            <span style="margin-top:auto;font-family:var(--font-heading);font-weight:600;font-size:15px;color:var(--color-accent-300)">Модели: Четь · Кеть →</span>
+          </div>
+        </article>
+
+        <article id="dir-box" sc-camel-on-click="{{ goCatalogBox }}" style="background:var(--color-surface);border-radius:var(--r-plane);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;scroll-margin-top:100px" style-hover="box-shadow:var(--shadow-lg)">
+          <div style="height:280px;overflow:hidden"><img src="assets/torba-kemperboks-v-bagazhnike.png" alt="Кемпербокс Торба в багажнике автомобиля" style="width:100%;height:100%;object-fit:cover;object-position:center 62%"></div>
+          <div style="padding:28px 30px 30px;display:flex;flex-direction:column;gap:14px;flex:1">
+            <span class="tag tag-outline" style="align-self:flex-start;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">Убрал в гараж — снова обычная машина</span>
+            <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(26px, 2.6vw, 34px);line-height:1.06;margin:0">В багажник</h2>
+            <p style="margin:0;font-size:15.5px;line-height:1.6;color:var(--color-neutral-700)">Кемпербокс — мобильный модуль в багажник универсала или кроссовера: кухонный блок, вместительные ящики, а в версии со спальным местом — сон на двоих. Ставится за пять минут без переделки автомобиля.</p>
+            <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px">
+              <li style="display:flex;gap:11px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-2-500);font-weight:600">·</span>Кухонный блок с раковиной и водой</li>
+              <li style="display:flex;gap:11px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-2-500);font-weight:600">·</span>Версия со спальным местом и ящиками</li>
+              <li style="display:flex;gap:11px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-2-500);font-weight:600">·</span>Ни одного отверстия в кузове</li>
+            </ul>
+            <span style="margin-top:auto;font-family:var(--font-heading);font-weight:600;font-size:15px;color:var(--color-accent-2-700)">Модели: Томь · Икса →</span>
+          </div>
+        </article>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(230px, 100%), 1fr));gap:16px;margin-top:16px">
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:24px;line-height:1.1;color:var(--color-accent-2-900)">Корпус 21 мм</div>
+          <div style="margin-top:10px;font-size:14.5px;line-height:1.5;color:var(--color-neutral-700)">Фанера 21 мм с монолитным стеклопластиковым покрытием.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:24px;line-height:1.1;color:var(--color-accent-2-900)">Свой цвет</div>
+          <div style="margin-top:10px;font-size:14.5px;line-height:1.5;color:var(--color-neutral-700)">Цвет корпуса и компоновку подбираем под вас, а не по каталогу.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:24px;line-height:1.1;color:var(--color-accent-2-900)">Мастерская</div>
+          <div style="margin-top:10px;font-size:14.5px;line-height:1.5;color:var(--color-neutral-700)">Небольшое производство в Томске: делаем сами и сами ездим.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:24px;line-height:1.1;color:var(--color-accent-2-900)">Права B</div>
+          <div style="margin-top:10px;font-size:14.5px;line-height:1.5;color:var(--color-neutral-700)">Прицеп тянет обычный легковой автомобиль, категория B.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="who" style="max-width:1320px;margin:0 auto;padding:88px 30px 0;scroll-margin-top:90px">
+      <div style="max-width:56ch">
+        <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Кому подходит</div>
+        <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Для кого мы это делаем</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(250px, 100%), 1fr));gap:18px;margin-top:34px">
+        <div style="background:var(--color-accent-2-200);border-radius:var(--r-plane);padding:28px">
+          <div style="width:46px;height:46px;border-radius:12px;background:var(--color-accent-2-900);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--color-neutral-100)">01</div>
+          <h3 style="font-family:var(--font-heading);font-weight:600;font-size:21px;margin:18px 0 0">Семьи с детьми</h3>
+          <p style="font-size:14.5px;line-height:1.55;color:var(--color-neutral-700);margin:9px 0 0">Ночёвка у воды без палатки и поисков жилья. Дети спят внутри, кухня открывается снаружи.</p>
+        </div>
+        <div style="background:var(--color-accent-2-200);border-radius:var(--r-plane);padding:28px">
+          <div style="width:46px;height:46px;border-radius:12px;background:var(--color-accent-2-900);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--color-neutral-100)">02</div>
+          <h3 style="font-family:var(--font-heading);font-weight:600;font-size:21px;margin:18px 0 0">Пары на выходные</h3>
+          <p style="font-size:14.5px;line-height:1.55;color:var(--color-neutral-700);margin:9px 0 0">В будни машина работает, в пятницу вечером — уезжает. Ничего не нужно докупать и разбирать.</p>
+        </div>
+        <div style="background:var(--color-accent-2-200);border-radius:var(--r-plane);padding:28px">
+          <div style="width:46px;height:46px;border-radius:12px;background:var(--color-accent-2-900);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--color-neutral-100)">03</div>
+          <h3 style="font-family:var(--font-heading);font-weight:600;font-size:21px;margin:18px 0 0">Рыбалка и охота</h3>
+          <p style="font-size:14.5px;line-height:1.55;color:var(--color-neutral-700);margin:9px 0 0">Грунтовка, колея, мокрый снег. Прочный корпус и высокий клиренс держат дорогу до места.</p>
+        </div>
+        <div style="background:var(--color-accent-2-200);border-radius:var(--r-plane);padding:28px">
+          <div style="width:46px;height:46px;border-radius:12px;background:var(--color-accent-2-900);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--color-neutral-100)">04</div>
+          <h3 style="font-family:var(--font-heading);font-weight:600;font-size:21px;margin:18px 0 0">Аренда и бизнес</h3>
+          <p style="font-size:14.5px;line-height:1.55;color:var(--color-neutral-700);margin:9px 0 0">Простая конструкция и понятное обслуживание между заездами гостей.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="road" style="max-width:1320px;margin:0 auto;padding:96px 30px 0">
+      <div style="max-width:64ch">
+        <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Надёжность</div>
+        <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Уверенность в каждом километре пути</h2>
+        <p style="font-size:17px;line-height:1.55;color:var(--color-neutral-700);margin:16px 0 0">Прокрутите страницу — проедем маршрут вместе и по дороге разберём, из чего складывается спокойствие.</p>
+      </div>
+    </section>
+
+    <section id="road-wrap" ref="{{ roadRef }}" style="position:relative;height:250vh;margin-top:24px">
+      <div id="road-grid" style="position:sticky;top:0;height:100vh;box-sizing:border-box;display:grid;grid-template-columns:minmax(280px, 0.85fr) 1.15fr;gap:40px;align-items:center;max-width:1320px;margin:0 auto;padding:96px 30px 40px">
+        <div id="road-art" style="height:100%;display:flex;align-items:center;justify-content:center">{{ roadDiagram }}</div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <sc-for list="{{ advantages }}" as="a" hint-placeholder-count="5">
+            <div style="display:flex;gap:20px;padding:16px 20px;border-radius:var(--r-plane);transition:opacity .35s ease, background .35s ease" style-hover="background:color-mix(in srgb, var(--color-surface) 60%, transparent)">
+              <div style="width:44px;height:44px;flex-shrink:0;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:14px;color:{{ a.numColor }};background:{{ a.numBg }};opacity:{{ a.op }}">{{ a.n }}</div>
+              <div style="opacity:{{ a.op }}">
+                <div style="font-family:var(--font-heading);font-weight:600;font-size:clamp(19px, 1.7vw, 25px);line-height:1.15">{{ a.title }}</div>
+                <div style="font-size:15px;line-height:1.55;color:var(--color-neutral-700);margin-top:6px;max-width:52ch">{{ a.text }}</div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <section id="models" style="max-width:1320px;margin:0 auto;padding:40px 30px 0;scroll-margin-top:90px">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:30px;flex-wrap:wrap">
+        <div style="max-width:60ch">
+          <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Модельный ряд</div>
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Четыре Торбы — четыре реки</h2>
+          <p style="font-size:16px;line-height:1.55;color:var(--color-neutral-700);margin:14px 0 0;max-width:54ch">Цена фиксированная — это стоимость полной базовой комплектации, а не пустого корпуса. Состав базы — в каждой карточке.</p>
+        </div>
+        <a href="#catalog" sc-camel-on-click="{{ goCatalog }}" style="font-size:14px;font-weight:600;color:var(--color-accent-2-700);text-decoration:none;white-space:nowrap">Сравнить все →</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(258px, 100%), 1fr));gap:18px;margin-top:34px">
+        <sc-for list="{{ models }}" as="m" hint-placeholder-count="4">
+          <article sc-camel-on-click="{{ m.open }}" style="background:var(--color-surface);border-radius:var(--r-plane);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;box-shadow:var(--shadow-sm)" style-hover="box-shadow:var(--shadow-lg)">
+            <div style="height:210px;overflow:hidden;position:relative">
+              <img class="washed" src="{{ m.photo }}" alt="{{ m.alt }}" style="width:100%;height:100%;object-fit:cover">
+              <span class="tag" style="position:absolute;top:14px;left:14px;background:color-mix(in srgb, var(--color-accent-2-900) 72%, transparent);color:var(--color-neutral-100);font-weight:600;letter-spacing:0.08em;text-transform:uppercase">{{ m.kindShort }}</span>
+            </div>
+            <div style="padding:22px 22px 24px;display:flex;flex-direction:column;gap:10px;flex:1">
+              <h3 style="font-family:var(--font-heading);font-weight:600;font-size:23px;margin:0;line-height:1.1">{{ m.name }}</h3>
+              <p style="margin:0;font-size:14px;line-height:1.55;color:var(--color-neutral-700);flex:1">{{ m.lead }}</p>
+              <div style="font-family:var(--font-heading);font-weight:600;font-size:21px;color:var(--color-accent-700);margin-top:6px">{{ m.priceLabel }}</div>
+              <span style="font-size:13px;color:var(--color-neutral-600)">цена базовой комплектации</span>
+              <span style="font-size:13.5px;font-weight:600;color:var(--color-accent-2-700)">Состав базы и фото →</span>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+    </section>
+
+    <section id="gallery" style="max-width:1320px;margin:0 auto;padding:96px 30px 0;scroll-margin-top:90px">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap">
+        <div style="max-width:56ch">
+          <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Медиа</div>
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Кемпер выбирают глазами</h2>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <button sc-camel-on-click="{{ galToggle }}" class="btn" style="height:52px;padding:0 20px;background:var(--color-surface);font-size:14px" style-hover="background:var(--color-accent-2-200)">{{ galPlayLabel }}</button>
+          <button sc-camel-on-click="{{ galPrev }}" aria-label="Предыдущий слайд" class="btn" style="width:52px;height:52px;padding:0;background:var(--color-surface);font-size:19px" style-hover="background:var(--color-accent-2-200)">←</button>
+          <button sc-camel-on-click="{{ galNext }}" aria-label="Следующий слайд" class="btn" style="width:52px;height:52px;padding:0;background:var(--color-surface);font-size:19px" style-hover="background:var(--color-accent-2-200)">→</button>
+        </div>
+      </div>
+
+      <div sc-camel-on-touch-start="{{ galTouchStart }}" sc-camel-on-touch-end="{{ galTouchEnd }}" style="margin-top:28px;border-radius:var(--r-plane);overflow:hidden;position:relative;background:var(--color-surface)">
+        <div style="display:flex;transition:transform .62s cubic-bezier(.4,0,.2,1);transform:translateX({{ galShift }})">
+          <sc-for list="{{ spreads }}" as="s" hint-placeholder-count="6">
+            <div style="min-width:100%;display:flex;gap:10px;height:clamp(320px, 46vw, 560px);padding:10px">
+              <sc-for list="{{ s.imgs }}" as="im" hint-placeholder-count="3">
+                <div style="flex:1;overflow:hidden;border-radius:var(--radius-lg)"><img class="washed" src="{{ im.src }}" alt="{{ im.alt }}" style="width:100%;height:100%;object-fit:cover"></div>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+
+        <sc-if value="{{ galIsVideo }}" hint-placeholder-val="{{ false }}">
+          <a href="https://vk.ru/torba.travel" target="_blank" rel="noreferrer" style="position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);display:flex;flex-direction:column;align-items:center;gap:14px;text-decoration:none">
+            <span style="width:84px;height:84px;border-radius:22px;background:var(--color-accent);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-lg)" style-hover="background:var(--color-accent-600)">
+              <svg width="26" height="26" sc-camel-view-box="0 0 26 26" fill="none" aria-hidden="true"><path d="M8 4l13 9-13 9V4z" fill="#f5ead8"></path></svg>
+            </span>
+            <span style="padding:8px 16px;border-radius:12px;background:color-mix(in srgb, var(--color-accent-2-900) 74%, transparent);color:var(--color-neutral-100);font-size:13px;font-weight:600">Смотреть видео во ВКонтакте — откроется по клику</span>
+          </a>
+        </sc-if>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:18px;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:14px">
+          <span style="font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:0.1em;color:var(--color-accent-2-700)">{{ galCounter }}</span>
+          <span style="font-size:15px;color:var(--color-neutral-700)">{{ galLabel }}</span>
+        </div>
+        <div style="display:flex;gap:8px">
+          <sc-for list="{{ galDots }}" as="d" hint-placeholder-count="6">
+            <button sc-camel-on-click="{{ d.go }}" aria-label="Слайд" style="width:{{ d.w }};height:8px;border-radius:4px;border:none;padding:0;cursor:pointer;background:{{ d.bg }};transition:all .3s ease"></button>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <section id="device" style="max-width:1320px;margin:0 auto;padding:96px 30px 0;scroll-margin-top:90px">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:26px;flex-wrap:wrap">
+        <div style="max-width:60ch">
+          <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Схема</div>
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Что внутри Торбы</h2>
+          <p style="font-size:17px;line-height:1.55;color:var(--color-neutral-700);margin:16px 0 0">Нажмите на точку — расскажем, что входит в базу и что можно добавить в конструкторе.</p>
+        </div>
+        <div style="display:flex;gap:8px;background:var(--color-surface);padding:6px;border-radius:16px">
+          <button sc-camel-on-click="{{ tabTrailer }}" class="btn {{ tabTrailerCls }}" style="padding:12px 20px;font-size:14px">Прицеп</button>
+          <button sc-camel-on-click="{{ tabBox }}" class="btn {{ tabBoxCls }}" style="padding:12px 20px;font-size:14px">Кемпербокс</button>
+        </div>
+      </div>
+
+      <div id="device-grid" style="display:grid;grid-template-columns:minmax(320px, 1.6fr) minmax(260px, 0.9fr);gap:26px;margin-top:34px;align-items:start">
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:20px;min-width:0">
+          {{ cutaway }}
+          <sc-if value="{{ isBoxTab }}" hint-placeholder-val="{{ false }}">
+            <div style="font-size:13px;color:var(--color-neutral-600);margin-top:10px;padding:0 6px">Кемпербокс занимает только багажный отсек — салон и задний ряд остаются свободными.</div>
+          </sc-if>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+          <div style="background:var(--color-accent-2-900);color:var(--color-neutral-100);border-radius:var(--r-plane);padding:26px">
+            <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">Узел {{ spotNum }}</div>
+            <h3 style="font-family:var(--font-heading);font-weight:600;font-size:25px;line-height:1.1;margin:12px 0 0">{{ spotTitle }}</h3>
+            <p style="font-size:15px;line-height:1.6;margin:12px 0 0;color:color-mix(in srgb, var(--color-neutral-100) 84%, transparent)">{{ spotText }}</p>
+            <div style="margin-top:16px;font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.12em;text-transform:uppercase;font-weight:500;color:var(--color-accent-300)">{{ spotMeta }}</div>
+          </div>
+          <sc-for list="{{ spotList }}" as="s" hint-placeholder-count="6">
+            <button sc-camel-on-click="{{ s.pick }}" style="display:flex;align-items:center;gap:14px;padding:13px 18px;border-radius:14px;border:1.5px solid {{ s.bd }};background:{{ s.bg }};cursor:pointer;text-align:left;font-family:var(--font-body);font-size:14.5px;font-weight:600;color:var(--color-text);width:100%" style-hover="border-color:var(--color-accent)">
+              <span style="width:26px;height:26px;flex-shrink:0;border-radius:8px;background:{{ s.dot }};color:{{ s.dotText }};display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:12px">{{ s.n }}</span>
+              {{ s.title }}
+            </button>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:96px;background:var(--color-accent-2-900);color:var(--color-neutral-100)">
+      <div style="max-width:1320px;margin:0 auto;padding:74px 30px;display:grid;grid-template-columns:repeat(auto-fit, minmax(min(300px, 100%), 1fr));gap:36px;align-items:center">
+        <div>
+          <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">Конструктор</div>
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 52px);line-height:1.04;margin:14px 0 0">Соберите свою Торбу</h2>
+          <p style="font-size:17px;line-height:1.55;margin:16px 0 0;color:color-mix(in srgb, var(--color-neutral-100) 84%, transparent);max-width:52ch">Выберите базу и добавьте только то, что нужно вам: увеличенный бак, отопитель, кондиционер, маркизу. Всё остальное уже в базовой комплектации.</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px;align-items:flex-start">
+          <button sc-camel-on-click="{{ goBuilder }}" class="btn" style="padding:17px 30px;font-size:16px;background:var(--color-accent);color:var(--color-bg)" style-hover="background:var(--color-accent-400)">Открыть конструктор →</button>
+          <span style="font-size:13px;color:color-mix(in srgb, var(--color-neutral-100) 66%, transparent)">Предварительный расчёт. Точная цена — после согласования комплектации.</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="craft" style="max-width:1320px;margin:0 auto;padding:96px 30px 0;scroll-margin-top:90px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(320px, 100%), 1fr));gap:40px;align-items:start">
+        <div>
+          <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Производство</div>
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">От чертежа до дороги</h2>
+          <p style="font-size:17px;line-height:1.55;color:var(--color-neutral-700);margin:16px 0 24px;max-width:48ch">Своя мастерская в Томске и свои чертежи.</p>
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <div style="display:flex;gap:18px;padding:16px 0;border-top:1px solid var(--color-divider)">
+              <span style="font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:0.1em;color:var(--color-accent-2-600);min-width:28px">01</span>
+              <div><div style="font-family:var(--font-heading);font-weight:600;font-size:18px">Замер и проект</div><div style="font-size:14.5px;color:var(--color-neutral-700);margin-top:4px">Для кемпербокса замеряем багажник вашего автомобиля. Прицепы делаем по своим типовым чертежам.</div></div>
+            </div>
+            <div style="display:flex;gap:18px;padding:16px 0;border-top:1px solid var(--color-divider)">
+              <span style="font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:0.1em;color:var(--color-accent-2-600);min-width:28px">02</span>
+              <div><div style="font-family:var(--font-heading);font-weight:600;font-size:18px">Раскрой и подготовка</div><div style="font-size:14.5px;color:var(--color-neutral-700);margin-top:4px">Корпус — фанера 21 мм, внутренние шкафы — 12 мм. Каждая деталь пронумерована.</div></div>
+            </div>
+            <div style="display:flex;gap:18px;padding:16px 0;border-top:1px solid var(--color-divider)">
+              <span style="font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:0.1em;color:var(--color-accent-2-600);min-width:28px">03</span>
+              <div><div style="font-family:var(--font-heading);font-weight:600;font-size:18px">Корпус и покрытие</div><div style="font-size:14.5px;color:var(--color-neutral-700);margin-top:4px">Монолитное стеклопластиковое покрытие, защитный Raptor, дерево — под яхтным лаком.</div></div>
+            </div>
+            <div style="display:flex;gap:18px;padding:16px 0;border-top:1px solid var(--color-divider)">
+              <span style="font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:0.1em;color:var(--color-accent-2-600);min-width:28px">04</span>
+              <div><div style="font-family:var(--font-heading);font-weight:600;font-size:18px">Сборка и испытания</div><div style="font-size:14.5px;color:var(--color-neutral-700);margin-top:4px">Собираем, гоняем по грунтовке и проверяем каждый узел под нагрузкой.</div></div>
+            </div>
+            <div style="display:flex;gap:18px;padding:16px 0;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)">
+              <span style="font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:0.1em;color:var(--color-accent-2-600);min-width:28px">05</span>
+              <div><div style="font-family:var(--font-heading);font-weight:600;font-size:18px">Доставка и инструктаж</div><div style="font-size:14.5px;color:var(--color-neutral-700);margin-top:4px">Показываем, как ставить, пользоваться и обслуживать.</div></div>
+            </div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div style="grid-column:1 / -1;border-radius:var(--radius-lg);overflow:hidden;height:300px"><img class="washed" src="assets/int-kitchen-open.jpg" alt="Кухонный блок кемпера" style="width:100%;height:100%;object-fit:cover"></div>
+          <div style="border-radius:var(--radius-lg);overflow:hidden;height:200px"><img class="washed" src="assets/det-cutlery.jpg" alt="Ящик для посуды" style="width:100%;height:100%;object-fit:cover"></div>
+          <div style="border-radius:var(--radius-lg);overflow:hidden;height:200px"><img class="washed" src="assets/det-spices.jpg" alt="Полка и розетки 12 В" style="width:100%;height:100%;object-fit:cover"></div>
+          <div style="grid-column:1 / -1;border-radius:var(--radius-lg);overflow:hidden;height:170px;position:relative"><image-slot id="craft-shop" shape="rect" fit="cover" placeholder="Фото мастерской: фанера, раскрой, сборка — добавим реальные кадры"></image-slot></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" style="max-width:1320px;margin:0 auto;padding:96px 30px 0;scroll-margin-top:90px">
+      <div style="max-width:60ch">
+        <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Как проходит заказ</div>
+        <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.6vw, 54px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Пять шагов до выезда</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(210px, 100%), 1fr));gap:14px;margin-top:34px">
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-mono);font-size:13px;font-weight:500;color:var(--color-accent-700)">01</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:18px;margin-top:12px">Заявка и консультация</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-top:8px">Расскажите про автомобиль и планы — подберём формат и модель.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-mono);font-size:13px;font-weight:500;color:var(--color-accent-700)">02</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:18px;margin-top:12px">Комплектация и расчёт</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-top:8px">Фиксируем состав базы, опции и точную стоимость.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-mono);font-size:13px;font-weight:500;color:var(--color-accent-700)">03</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:18px;margin-top:12px">Договор и предоплата</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-top:8px">Сроки, цена и комплектация закрепляются в договоре.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-mono);font-size:13px;font-weight:500;color:var(--color-accent-700)">04</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:18px;margin-top:12px">Производство</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-top:8px">Делаем и присылаем фотоотчёты с ключевых этапов.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:24px">
+          <div style="font-family:var(--font-mono);font-size:13px;font-weight:500;color:var(--color-accent-700)">05</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:18px;margin-top:12px">Приёмка и инструктаж</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-top:8px">Принимаете готовую Торбу, показываем, как всем пользоваться.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="max-width:1320px;margin:0 auto;padding:96px 30px 0;scroll-margin-top:90px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(300px, 100%), 1fr));gap:40px;align-items:start">
+        <div>
+          <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">О проекте</div>
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.4vw, 50px);line-height:1.04;letter-spacing:-0.015em;margin:14px 0 0">Сами ездим — сами дорабатываем</h2>
+          <p style="font-size:16.5px;line-height:1.6;color:var(--color-neutral-700);margin:18px 0 0;max-width:50ch">Торба — семейная мастерская в Томске. Мы ездим на своих кемперах, замечаем, что стоит переделать, и меняем это. Поэтому под ваши задачи тоже подстроимся: компоновка, цвет, оборудование.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(210px, 100%), 1fr));gap:12px;margin-top:28px">
+            <div style="background:var(--color-surface);border-radius:var(--radius-lg);padding:18px 20px">
+              <div style="font-family:var(--font-heading);font-weight:600;font-size:16px">Дарья Гаак</div>
+              <div style="font-size:13.5px;color:var(--color-neutral-700);margin-top:4px">Маркетинг, финансы</div>
+            </div>
+            <div style="background:var(--color-surface);border-radius:var(--radius-lg);padding:18px 20px">
+              <div style="font-family:var(--font-heading);font-weight:600;font-size:16px">Виталий Гаак</div>
+              <div style="font-size:13.5px;color:var(--color-neutral-700);margin-top:4px">Производство, сборка, испытания</div>
+            </div>
+            <div style="background:var(--color-surface);border-radius:var(--radius-lg);padding:18px 20px">
+              <div style="font-family:var(--font-heading);font-weight:600;font-size:16px">Герман Шнайдер</div>
+              <div style="font-size:13.5px;color:var(--color-neutral-700);margin-top:4px">Стратегия, подготовка производства</div>
+            </div>
+            <div style="background:var(--color-surface);border-radius:var(--radius-lg);padding:18px 20px">
+              <div style="font-family:var(--font-heading);font-weight:600;font-size:16px">Сергей Боднарчук</div>
+              <div style="font-size:13.5px;color:var(--color-neutral-700);margin-top:4px">Проектирование, чертежи</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:18px">
+          <div style="border-radius:var(--r-plane);overflow:hidden;height:340px"><img class="washed" src="assets/torba-kemperboks-na-otdyhe.jpg" alt="Кемпербокс Торба в багажнике автомобиля на стоянке" style="width:100%;height:100%;object-fit:cover"></div>
+          <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:28px">
+            <div style="font-family:var(--font-heading);font-weight:600;font-size:20px;line-height:1.2">Дневник мастерской</div>
+            <p style="font-size:14.5px;line-height:1.55;color:var(--color-neutral-700);margin:10px 0 18px">Показываем производство и поездки — всё как есть, без постановочных кадров. Основная площадка — ВКонтакте.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <a href="https://vk.ru/torba.travel" target="_blank" rel="noreferrer" class="btn btn-primary" style="padding:12px 20px;font-size:14px">ВКонтакте</a>
+              <a href="https://t.me/+Q2qzEDzVxZ81ZjFi" target="_blank" rel="noreferrer" class="btn" style="padding:12px 20px;font-size:14px;background:var(--color-bg)" style-hover="background:var(--color-accent-2-200)">Telegram</a>
+              <a href="https://dzen.ru/torba_travel" target="_blank" rel="noreferrer" class="btn" style="padding:12px 20px;font-size:14px;background:var(--color-bg)" style-hover="background:var(--color-accent-2-200)">Дзен</a>
+              <a href="https://max.ru/join/w9ZTy7492IgS7mlcxfuMqEiVC-msYnS77bZKlhxeEDc" target="_blank" rel="noreferrer" class="btn" style="padding:12px 20px;font-size:14px;background:var(--color-bg)" style-hover="background:var(--color-accent-2-200)">MAX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" style="max-width:1320px;margin:0 auto;padding:96px 30px 100px;scroll-margin-top:90px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(280px, 100%), 1fr));gap:22px">
+        <div style="background:var(--color-accent-2-900);color:var(--color-neutral-100);border-radius:var(--r-plane);padding:34px">
+          <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">Контакты</div>
+          <a href="tel:+79138808749" style="display:block;font-family:var(--font-heading);font-weight:600;font-size:clamp(24px, 2.4vw, 34px);color:var(--color-neutral-100);text-decoration:none;margin-top:14px">+7 913 880 87 49</a>
+          <a href="mailto:torba.travel@yandex.ru" style="display:block;font-size:16px;color:color-mix(in srgb, var(--color-neutral-100) 86%, transparent);text-decoration:none;margin-top:10px">torba.travel@yandex.ru</a>
+          <div style="font-size:15px;color:color-mix(in srgb, var(--color-neutral-100) 70%, transparent);margin-top:10px">Мастерская — Томск. Адрес и часы работы добавим к открытию шоурума.</div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:34px">
+          <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Написать</div>
+          <div style="display:flex;flex-direction:column;gap:10px;margin-top:16px">
+            <a href="https://t.me/Herrmann88" target="_blank" rel="noreferrer" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-radius:14px;background:var(--color-bg);text-decoration:none;color:var(--color-text);font-weight:600;font-size:15px" style-hover="background:var(--color-accent-2-200)">Telegram <span style="color:var(--color-accent-2-600)">→</span></a>
+            <a href="https://max.ru/u/f9LHodD0cOIh_Pn4l9cQe0MBeC0Koo47o9im0xfUY9XhlNdbGIAP455qG9Y" target="_blank" rel="noreferrer" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-radius:14px;background:var(--color-bg);text-decoration:none;color:var(--color-text);font-weight:600;font-size:15px" style-hover="background:var(--color-accent-2-200)">MAX <span style="color:var(--color-accent-2-600)">→</span></a>
+          </div>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:34px">
+          <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Смотреть</div>
+          <div style="display:flex;flex-direction:column;gap:10px;margin-top:16px">
+            <a href="https://vk.ru/torba.travel" target="_blank" rel="noreferrer" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-radius:14px;background:var(--color-bg);text-decoration:none;color:var(--color-text);font-weight:600;font-size:15px" style-hover="background:var(--color-accent-2-200)">ВКонтакте — основная площадка <span style="color:var(--color-accent-2-600)">→</span></a>
+            <a href="https://dzen.ru/torba_travel" target="_blank" rel="noreferrer" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-radius:14px;background:var(--color-bg);text-decoration:none;color:var(--color-text);font-weight:600;font-size:15px" style-hover="background:var(--color-accent-2-200)">Дзен <span style="color:var(--color-accent-2-600)">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isCatalog }}" hint-placeholder-val="{{ false }}">
+  <main data-screen-label="Каталог" style="max-width:1320px;margin:0 auto;padding:60px 30px 100px">
+    <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Каталог</div>
+    <h1 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(34px, 4.4vw, 66px);line-height:1.02;letter-spacing:-0.02em;margin:14px 0 0">Модели Торбы</h1>
+    <p style="font-size:17px;line-height:1.55;color:var(--color-neutral-700);margin:16px 0 0;max-width:60ch">Кемперы-прицепы и кемпербоксы в багажник. Цена фиксированная и включает полную базовую комплектацию — доплата только за дополнительное оборудование.</p>
+
+    <div style="display:flex;gap:10px;margin-top:32px;flex-wrap:wrap">
+      <button sc-camel-on-click="{{ filtAll }}" class="btn {{ filtAllCls }}" style="padding:13px 24px;font-size:14.5px">Все модели</button>
+      <button sc-camel-on-click="{{ filtTrailer }}" class="btn {{ filtTrailerCls }}" style="padding:13px 24px;font-size:14.5px">На прицепе</button>
+      <button sc-camel-on-click="{{ filtBox }}" class="btn {{ filtBoxCls }}" style="padding:13px 24px;font-size:14.5px">В багажник</button>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:22px;margin-top:34px">
+      <sc-for list="{{ catModels }}" as="m" hint-placeholder-count="4">
+        <article style="background:var(--color-surface);border-radius:var(--r-plane);overflow:hidden;display:grid;grid-template-columns:repeat(auto-fit, minmax(min(280px, 100%), 1fr))">
+          <div style="min-height:300px;overflow:hidden"><img class="washed" src="{{ m.photo }}" alt="{{ m.alt }}" style="width:100%;height:100%;object-fit:cover"></div>
+          <div style="padding:clamp(24px, 3vw, 42px);display:flex;flex-direction:column;gap:14px">
+            <span class="tag tag-outline" style="align-self:flex-start;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">{{ m.kindLabel }}</span>
+            <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(24px, 2.4vw, 36px);line-height:1.06;margin:0">{{ m.name }}</h2>
+            <p style="margin:0;font-size:15.5px;line-height:1.6;color:var(--color-neutral-700);max-width:52ch">{{ m.lead }}</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <sc-for list="{{ m.chips }}" as="c" hint-placeholder-count="3">
+                <span class="tag tag-outline" style="font-weight:600">{{ c.t }}</span>
+              </sc-for>
+            </div>
+            <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-top:6px">
+              <span style="font-family:var(--font-heading);font-weight:600;font-size:30px;color:var(--color-accent-700)">{{ m.priceLabel }}</span>
+              <span style="font-size:13px;color:var(--color-neutral-600)">цена базовой комплектации</span>
+            </div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+              <button sc-camel-on-click="{{ m.open }}" class="btn btn-primary" style="padding:14px 24px;font-size:15px">Состав базы и фото</button>
+              <button sc-camel-on-click="{{ m.build }}" class="btn" style="padding:14px 24px;font-size:15px;background:var(--color-bg)" style-hover="background:var(--color-accent-2-200)">В конструктор</button>
+            </div>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+
+    <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(24px, 2.6vw, 38px);margin:80px 0 0">Сравнение</h2>
+    <div style="overflow-x:auto;margin-top:20px;background:var(--color-surface);border-radius:var(--r-plane);padding:10px 24px 16px">
+      <sc-raw-table class="table" style="min-width:820px;font-size:14.5px">
+        <sc-raw-thead><sc-raw-tr><sc-raw-th>Параметр</sc-raw-th><sc-raw-th>Четь</sc-raw-th><sc-raw-th>Кеть</sc-raw-th><sc-raw-th>Томь</sc-raw-th><sc-raw-th>Икса</sc-raw-th></sc-raw-tr></sc-raw-thead>
+        <sc-raw-tbody>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Формат</sc-raw-td><sc-raw-td>кемпер-прицеп</sc-raw-td><sc-raw-td>кемпер-прицеп</sc-raw-td><sc-raw-td>кемпербокс в багажник</sc-raw-td><sc-raw-td>кемпербокс в багажник</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Цена базы</sc-raw-td><sc-raw-td style="font-weight:600;color:var(--color-accent-700)">450 000 ₽</sc-raw-td><sc-raw-td style="font-weight:600;color:var(--color-accent-700)">600 000 ₽</sc-raw-td><sc-raw-td style="font-weight:600;color:var(--color-accent-700)">90 000 ₽</sc-raw-td><sc-raw-td style="font-weight:600;color:var(--color-accent-700)">70 000 ₽</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">База включает</sc-raw-td><sc-raw-td>спальное место, кухонный блок, вода, 12 В</sc-raw-td><sc-raw-td>всё из Чети + отопитель, кондиционер, панель, маркизы</sc-raw-td><sc-raw-td>спальное место, раковина, бак 20 л, 12 В</sc-raw-td><sc-raw-td>столешница, ящики, канистра 10 л</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Спальных мест</sc-raw-td><sc-raw-td>2</sc-raw-td><sc-raw-td>2–3</sc-raw-td><sc-raw-td>2</sc-raw-td><sc-raw-td>—</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Масса</sc-raw-td><sc-raw-td>380 кг</sc-raw-td><sc-raw-td>480 кг</sc-raw-td><sc-raw-td>68 кг</sc-raw-td><sc-raw-td>34 кг</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Вода в базе</sc-raw-td><sc-raw-td>бак 20 л, насос</sc-raw-td><sc-raw-td>бак 80 л, подогрев</sc-raw-td><sc-raw-td>бак 20 л, насос</sc-raw-td><sc-raw-td>канистра 10 л</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Отопление</sc-raw-td><sc-raw-td>опция 5 кВт</sc-raw-td><sc-raw-td>5 кВт в базе</sc-raw-td><sc-raw-td>—</sc-raw-td><sc-raw-td>—</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Покрытие</sc-raw-td><sc-raw-td>стеклопластик, Raptor</sc-raw-td><sc-raw-td>стеклопластик, Raptor</sc-raw-td><sc-raw-td>яхтный лак</sc-raw-td><sc-raw-td>яхтный лак</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Срок изготовления</sc-raw-td><sc-raw-td>8–10 недель</sc-raw-td><sc-raw-td>10–12 недель</sc-raw-td><sc-raw-td>5 недель</sc-raw-td><sc-raw-td>3 недели</sc-raw-td></sc-raw-tr>
+          <sc-raw-tr><sc-raw-td style="font-weight:600">Кит-набор</sc-raw-td><sc-raw-td>—</sc-raw-td><sc-raw-td>—</sc-raw-td><sc-raw-td>доступен</sc-raw-td><sc-raw-td>доступен</sc-raw-td></sc-raw-tr>
+        </sc-raw-tbody>
+      </sc-raw-table>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:26px;padding:22px 26px;border-radius:var(--r-plane);border:1.5px solid var(--color-divider)">
+      <div>
+        <div style="font-family:var(--font-heading);font-weight:600;font-size:18px">Кит-набор: раскрой + инструкция для самостоятельной сборки</div>
+        <div style="font-size:14.5px;line-height:1.5;color:var(--color-neutral-700);margin-top:5px;max-width:64ch">Для кемпербоксов Томь и Икса. Выгода относительно готового модуля — уточняется.</div>
+      </div>
+      <button sc-camel-on-click="{{ jumpContact }}" class="btn" style="padding:13px 22px;font-size:14.5px;background:var(--color-surface)" style-hover="background:var(--color-accent-2-200)">Спросить о кит-наборе</button>
+    </div>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isModel }}" hint-placeholder-val="{{ false }}">
+  <main data-screen-label="Модель" style="max-width:1320px;margin:0 auto;padding:34px 30px 100px">
+    <button sc-camel-on-click="{{ goCatalog }}" class="btn" style="padding:11px 20px;font-size:14px;background:var(--color-surface)" style-hover="background:var(--color-accent-2-200)">← В каталог</button>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(320px, 100%), 1fr));gap:34px;margin-top:24px;align-items:start">
+      <div>
+        <div style="border-radius:var(--r-plane);overflow:hidden;height:clamp(330px, 46vw, 560px);position:relative">
+          <img class="washed" src="{{ curShot }}" alt="{{ curShotAlt }}" style="width:100%;height:100%;object-fit:cover">
+          <button sc-camel-on-click="{{ curPrev }}" aria-label="Предыдущее фото" style="position:absolute;left:14px;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:14px;border:none;cursor:pointer;background:color-mix(in srgb, var(--color-accent-2-900) 62%, transparent);color:var(--color-neutral-100);font-size:18px">←</button>
+          <button sc-camel-on-click="{{ curNext }}" aria-label="Следующее фото" style="position:absolute;right:14px;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:14px;border:none;cursor:pointer;background:color-mix(in srgb, var(--color-accent-2-900) 62%, transparent);color:var(--color-neutral-100);font-size:18px">→</button>
+        </div>
+        <div style="display:flex;gap:10px;margin-top:12px">
+          <sc-for list="{{ curThumbs }}" as="t" hint-placeholder-count="3">
+            <button sc-camel-on-click="{{ t.go }}" style="flex:1;height:82px;padding:0;border-radius:var(--radius-md);overflow:hidden;cursor:pointer;border:2px solid {{ t.bd }};background:none">
+              <img src="{{ t.src }}" alt="{{ t.alt }}" style="width:100%;height:100%;object-fit:cover">
+            </button>
+          </sc-for>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:20px 24px;margin-top:18px">
+          <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Чертёж и габариты</div>
+          <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-top:8px">Габаритный чертёж, подтверждённый вес и требования к автомобилю добавим после фиксации конструкции. Пока эти данные уточняются — спрашивайте в заявке.</div>
+        </div>
+      </div>
+      <div>
+        <span class="tag tag-outline" style="font-weight:600;letter-spacing:0.1em;text-transform:uppercase">{{ cur.kindLabel }}</span>
+        <h1 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(32px, 4vw, 60px);line-height:1.02;letter-spacing:-0.02em;margin:16px 0 0">{{ cur.name }}</h1>
+        <p style="font-size:17px;line-height:1.6;color:var(--color-neutral-700);margin:16px 0 0;max-width:46ch">{{ cur.long }}</p>
+        <div style="font-family:var(--font-heading);font-weight:600;font-size:42px;color:var(--color-accent-700);margin:26px 0 0">{{ cur.priceLabel }}</div>
+        <div style="font-size:13px;color:var(--color-neutral-600);margin-top:6px">Цена полной базовой комплектации — состав ниже. Точная цена — после согласования комплектации.</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:26px">
+          <button sc-camel-on-click="{{ curBuild }}" class="btn btn-primary" style="padding:16px 28px;font-size:16px">Собрать комплектацию</button>
+          <button sc-camel-on-click="{{ curRequest }}" class="btn" style="padding:16px 28px;font-size:16px;background:var(--color-surface)" style-hover="background:var(--color-accent-2-200)">Заявка на расчёт</button>
+        </div>
+        <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:12px 26px 20px;margin-top:30px">
+          <sc-raw-table class="table">
+            <sc-raw-tbody>
+              <sc-for list="{{ cur.specs }}" as="s" hint-placeholder-count="6">
+                <sc-raw-tr><sc-raw-td style="color:var(--color-neutral-600)">{{ s.k }}</sc-raw-td><sc-raw-td style="font-weight:600;text-align:right">{{ s.v }}</sc-raw-td></sc-raw-tr>
+              </sc-for>
+            </sc-raw-tbody>
+          </sc-raw-table>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:var(--color-accent-2-900);color:var(--color-neutral-100);border-radius:var(--r-plane);padding:34px;margin-top:34px">
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:24px;margin:0 0 18px">В базовой комплектации</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(240px, 100%), 1fr));gap:12px">
+        <sc-for list="{{ cur.kit }}" as="k" hint-placeholder-count="6">
+          <div style="display:flex;gap:12px;font-size:15px;line-height:1.5"><span style="color:var(--color-accent-300);font-weight:600">✓</span>{{ k.t }}</div>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:30px 34px;margin-top:22px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:20px;flex-wrap:wrap">
+        <h2 style="font-family:var(--font-heading);font-weight:600;font-size:24px;margin:0">Возможности модели</h2>
+        <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.1em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">✓ в базе · + за доплату · — не предусмотрено</div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(220px, 100%), 1fr));gap:8px;margin-top:18px">
+        <sc-for list="{{ curFeatures }}" as="f" hint-placeholder-count="8">
+          <div style="display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:12px;background:{{ f.bg }}">
+            <span style="width:24px;height:24px;flex-shrink:0;border-radius:7px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:13px;background:{{ f.mBg }};color:{{ f.mColor }}">{{ f.mark }}</span>
+            <span style="font-size:14px;font-weight:500;color:{{ f.color }}">{{ f.label }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isBuilder }}" hint-placeholder-val="{{ false }}">
+  <main data-screen-label="Конструктор" style="max-width:1320px;margin:0 auto;padding:60px 30px 100px">
+    <div style="font-family:var(--font-mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Конструктор</div>
+    <h1 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(34px, 4.4vw, 66px);line-height:1.02;letter-spacing:-0.02em;margin:14px 0 0">Соберите свою Торбу</h1>
+    <p style="font-size:17px;line-height:1.55;color:var(--color-neutral-700);margin:16px 0 0;max-width:58ch">Базовая комплектация уже полная. Здесь — только дополнительное оборудование: стоимость пересчитывается сразу.</p>
+
+    <div id="builder-grid" style="display:grid;grid-template-columns:minmax(320px, 1.5fr) minmax(280px, 0.85fr);gap:26px;margin-top:38px;align-items:start">
+      <div style="display:flex;flex-direction:column;gap:34px;min-width:0">
+        <div>
+          <div style="display:flex;align-items:center;gap:12px">
+            <span style="width:30px;height:30px;border-radius:8px;background:var(--color-accent);color:var(--color-bg);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:13px">1</span>
+            <h2 style="font-family:var(--font-heading);font-weight:600;font-size:24px;margin:0">База</h2>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(230px, 100%), 1fr));gap:12px;margin-top:16px">
+            <sc-for list="{{ baseCards }}" as="b" hint-placeholder-count="4">
+              <button sc-camel-on-click="{{ b.pick }}" style="text-align:left;padding:20px;border-radius:var(--r-plane);border:2px solid {{ b.bd }};background:{{ b.bg }};cursor:pointer;font-family:var(--font-body);display:flex;flex-direction:column;gap:8px" style-hover="border-color:var(--color-accent)">
+                <span class="tag" style="align-self:flex-start;background:var(--color-bg);font-weight:600;font-size:10px;letter-spacing:0.1em;text-transform:uppercase">{{ b.kindShort }}</span>
+                <span style="font-family:var(--font-heading);font-weight:600;font-size:19px;color:var(--color-text)">{{ b.name }}</span>
+                <span style="font-size:13.5px;color:var(--color-neutral-700);line-height:1.45">{{ b.short }}</span>
+                <span style="font-family:var(--font-heading);font-weight:600;font-size:17px;color:var(--color-accent-700);margin-top:4px">{{ b.priceLabel }}</span>
+              </button>
+            </sc-for>
+          </div>
+          <div style="background:var(--color-surface);border-radius:var(--r-plane);padding:22px 26px;margin-top:14px">
+            <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">Уже в базе</div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(220px, 100%), 1fr));gap:10px;margin-top:14px">
+              <sc-for list="{{ bBaseKit }}" as="k" hint-placeholder-count="5">
+                <div style="display:flex;gap:10px;font-size:14.5px;line-height:1.45"><span style="color:var(--color-accent-2-600);font-weight:600">✓</span>{{ k.t }}</div>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="display:flex;align-items:center;gap:12px">
+            <span style="width:30px;height:30px;border-radius:8px;background:var(--color-accent);color:var(--color-bg);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:13px">2</span>
+            <h2 style="font-family:var(--font-heading);font-weight:600;font-size:24px;margin:0">Дополнительно</h2>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:26px;margin-top:16px">
+            <sc-for list="{{ optGroups }}" as="g" hint-placeholder-count="5">
+              <div>
+                <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-neutral-600)">{{ g.title }}</div>
+                <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+                  <sc-for list="{{ g.items }}" as="o" hint-placeholder-count="3">
+                    <button sc-camel-on-click="{{ o.toggle }}" style="display:flex;align-items:center;gap:14px;padding:13px 18px;border-radius:14px;border:1.5px solid {{ o.bd }};background:{{ o.bg }};cursor:pointer;font-family:var(--font-body);text-align:left;width:100%" style-hover="border-color:var(--color-accent)">
+                      <span style="width:38px;height:38px;flex-shrink:0;border-radius:11px;background:{{ o.icoBg }};color:{{ o.icoColor }};display:flex;align-items:center;justify-content:center">{{ o.icon }}</span>
+                      <span style="flex:1;display:flex;flex-direction:column;gap:3px">
+                        <span style="font-size:15px;font-weight:600;color:var(--color-text)">{{ o.name }}</span>
+                        <span style="font-size:12.5px;color:var(--color-neutral-600);line-height:1.4">{{ o.note }}</span>
+                      </span>
+                      <span style="font-family:var(--font-heading);font-weight:600;font-size:14.5px;color:var(--color-accent-700);white-space:nowrap">{{ o.priceLabel }}</span>
+                      <span style="width:24px;height:24px;flex-shrink:0;border-radius:8px;border:1.5px solid {{ o.boxBd }};background:{{ o.boxBg }};color:var(--color-bg);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600">{{ o.check }}</span>
+                    </button>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+
+      <aside id="builder-aside" style="position:sticky;top:96px;background:var(--color-accent-2-900);color:var(--color-neutral-100);border-radius:var(--r-plane);padding:30px">
+        <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">Предварительный расчёт</div>
+        <div style="font-family:var(--font-heading);font-weight:600;font-size:23px;margin-top:14px">{{ bBaseName }}</div>
+        <div style="display:flex;justify-content:space-between;font-size:14.5px;margin-top:14px;padding-bottom:14px;border-bottom:1px solid color-mix(in srgb, var(--color-neutral-100) 24%, transparent)">
+          <span style="color:color-mix(in srgb, var(--color-neutral-100) 72%, transparent)">База</span><span style="font-weight:600">{{ bBasePrice }}</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px">
+          <sc-for list="{{ bChosen }}" as="c" hint-placeholder-count="0">
+            <div style="display:flex;justify-content:space-between;gap:14px;font-size:14px">
+              <span style="color:color-mix(in srgb, var(--color-neutral-100) 78%, transparent);line-height:1.35">{{ c.name }}</span><span style="font-weight:600;white-space:nowrap">{{ c.priceLabel }}</span>
+            </div>
+          </sc-for>
+        </div>
+        <sc-if value="{{ bEmpty }}" hint-placeholder-val="{{ true }}">
+          <div style="font-size:13.5px;color:color-mix(in srgb, var(--color-neutral-100) 62%, transparent);line-height:1.5;margin-top:6px">Ничего не добавлено — базовая комплектация уже готова к поездке.</div>
+        </sc-if>
+        <div style="margin-top:22px;padding-top:18px;border-top:1px solid color-mix(in srgb, var(--color-neutral-100) 24%, transparent)">
+          <div style="font-size:12.5px;color:color-mix(in srgb, var(--color-neutral-100) 68%, transparent)">Итого · {{ bCount }}</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:clamp(30px, 3.2vw, 42px);line-height:1.05;margin-top:6px">{{ bTotal }}</div>
+        </div>
+        <button sc-camel-on-click="{{ bSubmit }}" class="btn" style="width:100%;margin-top:22px;padding:16px;font-size:16px;background:var(--color-accent);color:var(--color-bg)" style-hover="background:var(--color-accent-400)">Отправить на расчёт</button>
+        <button sc-camel-on-click="{{ bReset }}" class="btn" style="width:100%;margin-top:9px;padding:13px;font-size:14px;background:transparent;color:color-mix(in srgb, var(--color-neutral-100) 78%, transparent);border:1px solid color-mix(in srgb, var(--color-neutral-100) 32%, transparent)" style-hover="background:color-mix(in srgb, var(--color-neutral-100) 12%, transparent)">Сбросить</button>
+        <div style="font-size:12px;line-height:1.5;color:color-mix(in srgb, var(--color-neutral-100) 60%, transparent);margin-top:14px">Предварительный расчёт. Точная цена — после согласования комплектации.</div>
+      </aside>
+    </div>
+  </main>
+  </sc-if>
+
+  <footer style="background:var(--color-accent-2-900);color:color-mix(in srgb, var(--color-neutral-100) 82%, transparent)">
+    <div style="max-width:1320px;margin:0 auto;padding:64px 30px 40px;display:grid;grid-template-columns:repeat(auto-fit, minmax(min(220px, 100%), 1fr));gap:40px">
+      <div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <span style="width:56px;height:56px;border-radius:14px;background:var(--color-neutral-100);display:flex;align-items:center;justify-content:center;padding:6px;flex-shrink:0"><img src="assets/de64c868.png" alt="Знак Торба — гора с дорогой" style="width:100%;height:auto"></span>
+          <span style="display:flex;flex-direction:column;gap:4px">
+            <span style="font-family:var(--font-heading);font-weight:600;font-size:26px;letter-spacing:0.09em;line-height:1;color:var(--color-neutral-100)">ТОРБА</span>
+            <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300);line-height:1">твоё путешествие</span>
+          </span>
+        </div>
+        <p style="font-size:14.5px;line-height:1.6;color:color-mix(in srgb, var(--color-neutral-100) 66%, transparent);margin:22px 0 0;max-width:34ch">Мастерская кемперов и кемпербоксов в багажник. Томск.</p>
+      </div>
+      <div>
+        <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">Продукция</div>
+        <div style="display:flex;flex-direction:column;gap:11px;margin-top:16px">
+          <a href="#catalog" sc-camel-on-click="{{ goCatalogTrailer }}" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Кемперы-прицепы</a>
+          <a href="#catalog" sc-camel-on-click="{{ goCatalogBox }}" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Кемпербоксы в багажник</a>
+          <a href="#builder" sc-camel-on-click="{{ goBuilder }}" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Конструктор</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">О проекте</div>
+        <div style="display:flex;flex-direction:column;gap:11px;margin-top:16px">
+          <a href="#craft" sc-camel-on-click="{{ jumpCraft }}" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Производство</a>
+          <a href="#about" sc-camel-on-click="{{ jumpAbout }}" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Мастерская</a>
+          <a href="#device" sc-camel-on-click="{{ jumpDevice }}" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Схема</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;font-weight:500;color:var(--color-accent-2-300)">Контакты</div>
+        <div style="display:flex;flex-direction:column;gap:11px;margin-top:16px">
+          <a href="tel:+79138808749" style="font-size:16px;font-weight:600;color:var(--color-neutral-100);text-decoration:none">+7 913 880 87 49</a>
+          <a href="mailto:torba.travel@yandex.ru" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">torba.travel@yandex.ru</a>
+          <div style="display:flex;gap:14px;flex-wrap:wrap">
+            <a href="https://vk.ru/torba.travel" target="_blank" rel="noreferrer" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">ВКонтакте</a>
+            <a href="https://t.me/+Q2qzEDzVxZ81ZjFi" target="_blank" rel="noreferrer" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Telegram</a>
+            <a href="https://max.ru/join/w9ZTy7492IgS7mlcxfuMqEiVC-msYnS77bZKlhxeEDc" target="_blank" rel="noreferrer" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Макс</a>
+            <a href="https://dzen.ru/torba_travel" target="_blank" rel="noreferrer" style="font-size:14.5px;color:var(--color-neutral-200);text-decoration:none">Дзен</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="max-width:1320px;margin:0 auto;padding:24px 30px 44px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:12.5px;color:color-mix(in srgb, var(--color-neutral-100) 56%, transparent);border-top:1px solid color-mix(in srgb, var(--color-neutral-100) 14%, transparent)">
+      <span>© Торба, 2026. Мастерская кемперов и кемпербоксов, Томск.</span>
+      <span style="display:flex;gap:18px;flex-wrap:wrap">
+        <button sc-camel-on-click="{{ openPrivacy }}" style="background:none;border:none;padding:0;cursor:pointer;font-family:var(--font-body);font-size:12.5px;color:color-mix(in srgb, var(--color-neutral-100) 74%, transparent);text-decoration:underline">Политика конфиденциальности</button>
+        <button sc-camel-on-click="{{ openTerms }}" style="background:none;border:none;padding:0;cursor:pointer;font-family:var(--font-body);font-size:12.5px;color:color-mix(in srgb, var(--color-neutral-100) 74%, transparent);text-decoration:underline">Пользовательское соглашение</button>
+      </span>
+    </div>
+  </footer>
+
+  <sc-if value="{{ legalPrivacy }}" hint-placeholder-val="{{ false }}">
+    <div sc-camel-on-click="{{ closeLegal }}" style="position:fixed;inset:0;z-index:100;background:color-mix(in srgb, var(--color-accent-2-900) 55%, transparent);display:flex;align-items:center;justify-content:center;padding:20px">
+      <div sc-camel-on-click="{{ stopProp }}" style="background:var(--color-bg);border-radius:var(--r-plane);max-width:680px;width:100%;max-height:82vh;overflow:auto;padding:34px;box-shadow:var(--shadow-lg)">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px">
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:26px;margin:0">Политика конфиденциальности</h2>
+          <button sc-camel-on-click="{{ closeLegal }}" aria-label="Закрыть" class="btn" style="width:40px;height:40px;padding:0;background:var(--color-surface);font-size:17px;flex-shrink:0" style-hover="background:var(--color-accent-2-200)">✕</button>
+        </div>
+        <div style="font-size:14.5px;line-height:1.65;color:var(--color-neutral-700);margin-top:16px;display:flex;flex-direction:column;gap:12px">
+          <p style="margin:0"><b style="color:var(--color-text)">1. Оператор.</b> Мастерская «Торба», г. Томск, почта torba.travel@yandex.ru. Реквизиты оператора будут указаны здесь после регистрации юридического лица.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">2. Какие данные мы собираем.</b> Только то, что вы сами оставляете в форме заявки: имя, телефон или мессенджер, адрес почты и текст сообщения.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">3. Зачем.</b> Чтобы связаться с вами по заявке, подобрать модель, посчитать комплектацию и назвать срок. Рассылок без вашего согласия не делаем.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">4. Правовое основание.</b> Ваше согласие, которое вы даёте, нажимая кнопку «Отправить заявку» (ст. 6 152-ФЗ «О персональных данных»).</p>
+          <p style="margin:0"><b style="color:var(--color-text)">5. Кому передаём.</b> Никому, кроме случаев, прямо предусмотренных законом.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">6. Сколько храним.</b> Пока идёт обсуждение заказа и три года после последнего контакта, либо до отзыва согласия.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">7. Ваши права.</b> Вы можете запросить, исправить или удалить свои данные и отозвать согласие — напишите на torba.travel@yandex.ru, ответим в течение 10 дней.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">8. Cookies и статистика.</b> Сайт может использовать обезличенную статистику посещений. Она не позволяет установить вашу личность.</p>
+          <p style="margin:0;color:var(--color-neutral-600)">Редакция от 16 августа 2026 года. Действующая редакция всегда доступна на этой странице.</p>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ legalTerms }}" hint-placeholder-val="{{ false }}">
+    <div sc-camel-on-click="{{ closeLegal }}" style="position:fixed;inset:0;z-index:100;background:color-mix(in srgb, var(--color-accent-2-900) 55%, transparent);display:flex;align-items:center;justify-content:center;padding:20px">
+      <div sc-camel-on-click="{{ stopProp }}" style="background:var(--color-bg);border-radius:var(--r-plane);max-width:680px;width:100%;max-height:82vh;overflow:auto;padding:34px;box-shadow:var(--shadow-lg)">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px">
+          <h2 style="font-family:var(--font-heading);font-weight:600;font-size:26px;margin:0">Пользовательское соглашение</h2>
+          <button sc-camel-on-click="{{ closeLegal }}" aria-label="Закрыть" class="btn" style="width:40px;height:40px;padding:0;background:var(--color-surface);font-size:17px;flex-shrink:0" style-hover="background:var(--color-accent-2-200)">✕</button>
+        </div>
+        <div style="font-size:14.5px;line-height:1.65;color:var(--color-neutral-700);margin-top:16px;display:flex;flex-direction:column;gap:12px">
+          <p style="margin:0"><b style="color:var(--color-text)">1. О сайте.</b> Сайт torba.travel носит информационный характер и рассказывает о продукции мастерской «Торба» (г. Томск).</p>
+          <p style="margin:0"><b style="color:var(--color-text)">2. Цены.</b> Цены на сайте — стоимость базовых комплектаций. Информация на сайте не является публичной офертой; окончательная стоимость, комплектация и срок фиксируются в договоре.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">3. Заявка.</b> Отправка формы не создаёт обязательств для сторон — это запрос на консультацию и расчёт.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">4. Порядок заказа.</b> Консультация → согласование комплектации и цены → договор и предоплата → производство → приёмка и передача. Этапы и сроки закрепляются в договоре.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">5. Интеллектуальная собственность.</b> Тексты, фотографии, схемы и знак «Торба» принадлежат мастерской. Использование материалов без разрешения не допускается.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">6. Ответственность.</b> Мы стараемся поддерживать информацию точной, но характеристики могут уточняться по мере развития конструкции. Актуальные данные подтверждаются в договоре.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">7. Изменения.</b> Мы можем обновлять соглашение; новая редакция действует с момента публикации на этой странице.</p>
+          <p style="margin:0"><b style="color:var(--color-text)">8. Контакты.</b> Вопросы по соглашению: torba.travel@yandex.ru, +7 913 880 87 49.</p>
+          <p style="margin:0;color:var(--color-neutral-600)">Редакция от 16 августа 2026 года.</p>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;showPrices&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Поведение&quot;},&quot;routeAnimation&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Поведение&quot;},&quot;galleryAutoplay&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Поведение&quot;}}">
+class Component extends DCLogic {
+  state = {
+    page: 'home', modelId: 'elite', filter: 'all',
+    gi: 0, playing: false, hs: 0, tab: 'trailer', routeP: 0, mi: 0,
+    bBase: 'elite', bOpts: {}, legal: null,
+    fName: '', fPhone: '', fModel: 'Ещё не выбрал', fMsg: '', sent: false, sentSummary: ''
+  };
+
+  MODELS = [
+    { id: 'elite', kind: 'trailer', kindLabel: 'Кемпер-прицеп · база', kindShort: 'На прицепе', name: 'Торба Четь', price: 450000,
+      alt: 'Кемпер-прицеп Торба Четь',
+      short: 'Кемпер-прицеп в базовой комплектации',
+      lead: 'Компактная «капля»: спальное место 1400 × 2000 внутри, кухонный блок снаружи под откидной крышкой.',
+      long: 'Кемпер-прицеп в полной базовой комплектации: спальное место с матрасом, кухонный блок с раковиной и водой, розетки 12 В во всех узлах. Корпус — фанера 21 мм под монолитным стеклопластиком, одна ось и рессорная подвеска. Тянет любой легковой автомобиль с категорией B.',
+      photo: __res('ext-street','jpg'),
+      feat: { sleep:'b', sink:'b', water:'b', sockets:'b', stove:'o', heater:'o', ac:'o', solar:'o', awning:'o', shower:'o', tyres:'o' },
+      chips: ['380 кг', 'категория B', 'вода и электрика в базе'],
+      specs: [['Спальных мест', '2'], ['Спальное место', '1400 × 2000'], ['Полная масса', '380 кг'], ['Оси', 'одна, рессорная подвеска'], ['Корпус', 'фанера 21 мм, стеклопластик'], ['Срок изготовления', '8–10 недель']],
+      kit: ['Спальное место 1400 × 2000 с матрасом', 'Кухонный блок: раковина, смеситель', 'Бак воды 20 л и насос 12 В', 'Розетки 12 В во всех узлах', 'Защитное покрытие Raptor', 'Вместительные ящики для хранения'],
+      gallery: [[__res('ext-street','jpg'), 'Кемпер-прицеп Торба Четь'], [__res('int-kitchen-open','jpg'), 'Кухонный блок открыт'], [__res('int-bed','jpg'), 'Спальное место']] },
+    { id: 'extra', kind: 'trailer', kindLabel: 'Кемпер-прицеп · максимум', kindShort: 'На прицепе', name: 'Торба Кеть', price: 600000,
+      alt: 'Кемпер-прицеп Торба Кеть',
+      short: 'Максимальная комплектация без доплат',
+      lead: 'Всё лучшее оборудование сразу: отопитель 5 кВт, кондиционер, солнечная панель, бак 80 л с подогревом.',
+      long: 'Версия, в которой доплачивать уже не за что. Автономный отопитель 5 кВт, кондиционер, солнечная панель с усиленным аккумулятором, бак 80 л с подогревом воды, маркиза со стенками и душ-маркиза, внедорожная резина. Тот же корпус из фанеры 21 мм под стеклопластиком.',
+      photo: __res('ext-city','jpg'),
+      includedOpts: ['tank80', 'heatwater', 'solar', 'bat', 'ac', 'lamps', 'heater', 'awning', 'awningwalls', 'shower', 'tyres'],
+      feat: { sleep:'b', sink:'b', water:'b', sockets:'b', stove:'o', heater:'b', ac:'b', solar:'b', awning:'b', shower:'b', tyres:'b' },
+      chips: ['480 кг', 'отопитель 5 кВт', 'кондиционер'],
+      specs: [['Спальных мест', '2–3'], ['Полная масса', '480 кг'], ['Отопление', 'автономное, 5 кВт'], ['Запас воды', '80 л с подогревом'], ['Энергия', 'панель 200 Вт, усиленный АКБ'], ['Срок изготовления', '10–12 недель']],
+      kit: ['Всё из комплектации Чети', 'Автономный отопитель 5 кВт', 'Кондиционер', 'Солнечная панель 200 Вт и усиленный АКБ', 'Бак 80 л с подогревом воды', 'Маркиза со стенками и душ-маркиза', 'Внедорожная резина', 'Светильники для чтения'],
+      gallery: [[__res('ext-city','jpg'), 'Кемпер-прицеп Торба Кеть в городе'], [__res('ext-forest','jpg'), 'Кемпер-прицеп в лесу'], [__res('int-galley','jpg'), 'Кухонный блок']] },
+    { id: 'premium', kind: 'box', kindLabel: 'Кемпербокс · со спальным местом', kindShort: 'В багажник', name: 'Торба Томь', price: 90000,
+      alt: 'Кемпербокс Торба в багажнике автомобиля',
+      short: 'Кемпербокс со спальным местом и водой',
+      lead: 'Полноценный модуль: спальное место, раковина, бак воды и розетки 12 В. Ставится за пять минут.',
+      long: 'Кемпербокс, который превращает универсал или кроссовер в спальню с кухней. Спальный настил, раковина со смесителем, бак 20 л с насосом, вместительные ящики и розетки 12 В. Занимает только багажный отсек, ставится и вынимается без переделки автомобиля.',
+      photo: __res('torba-kemperboks-v-bagazhnike','png'),
+      feat: { sleep:'b', sink:'b', water:'b', sockets:'b', stove:'o', heater:'n', ac:'n', solar:'n', awning:'n', shower:'n', tyres:'n' },
+      chips: ['68 кг', 'спальное место', 'вода и розетки'],
+      specs: [['Спальных мест', '2'], ['Масса', '68 кг'], ['Установка', '5 минут, без переделки авто'], ['Вода', 'бак 20 л, насос 12 В'], ['Отделка', 'фанера 12 мм, яхтный лак'], ['Срок изготовления', '5 недель']],
+      kit: ['Спальный настил под матрас', 'Раковина со смесителем', 'Бак воды 20 л и насос 12 В', 'Вместительные выкатные ящики', 'Розетки 12 В и USB', 'Яхтный лак на всех поверхностях'],
+      gallery: [[__res('torba-kemperboks-v-bagazhnike','png'), 'Кемпербокс Торба в багажнике автомобиля'], [__res('torba-kemperboks-na-otdyhe','jpg'), 'Кемпербокс Торба на стоянке'], [__res('det-spices','jpg'), 'Полка и розетки']] },
+    { id: 'lite', kind: 'box', kindLabel: 'Кемпербокс · кухонный блок', kindShort: 'В багажник', name: 'Торба Икса', price: 70000,
+      alt: 'Кухонный кемпербокс Торба Икса',
+      short: 'Кухонный блок без спального места',
+      lead: 'Простой кухонный модуль в багажник: столешница, ящики и канистра воды. Без спального места.',
+      long: 'Самый простой способ готовить в дороге. Кухонный блок с рабочей столешницей, вместительными ящиками для посуды и продуктов и канистрой воды на 10 литров. Ставится в багажник за пять минут и снимается так же быстро.',
+      photo: __res('det-storage','jpg'),
+      feat: { sleep:'n', sink:'n', water:'b', sockets:'n', stove:'o', heater:'n', ac:'n', solar:'n', awning:'n', shower:'n', tyres:'n' },
+      chips: ['34 кг', 'без спального места', 'установка 5 минут'],
+      specs: [['Спальных мест', '—'], ['Масса', '34 кг'], ['Установка', '5 минут, одним человеком'], ['Вода', 'канистра 10 л'], ['Отделка', 'фанера 12 мм, яхтный лак'], ['Срок изготовления', '3 недели']],
+      kit: ['Кухонная столешница', 'Вместительные выкатные ящики', 'Отсеки для посуды и продуктов', 'Канистра воды 10 л', 'Яхтный лак на всех поверхностях'],
+      gallery: [[__res('det-storage','jpg'), 'Ящики кемпербокса'], [__res('det-cutlery','jpg'), 'Ящик для посуды'], [__res('det-gas','jpg'), 'Отсек для газа']] }
+  ];
+
+  FEATURES = [
+    ['sleep', 'Спальное место'], ['sink', 'Раковина со смесителем'], ['water', 'Запас воды'],
+    ['sockets', 'Розетки 12 В'], ['stove', 'Газовая плита'], ['heater', 'Отопитель'],
+    ['ac', 'Кондиционер'], ['solar', 'Солнечная панель'], ['awning', 'Маркиза'],
+    ['shower', 'Душ-маркиза'], ['tyres', 'Внедорожная резина']
+  ];
+
+  ADV = [
+    ['Надёжное шасси', 'Рессорная подвеска и одна ось — простая, проверенная схема, которую легко обслуживать.'],
+    ['Прочный корпус', 'Фанера 21 мм под монолитным стеклопластиком. Крыша дополнительно защищена от солнца.'],
+    ['Богатая база', 'Сел и поехал: раковина, вода, матрас и электрика уже входят в стоимость.'],
+    ['Полная электрификация', 'Розетки 12 В во всех узлах — на кухне, у изголовья и в ящиках.'],
+    ['Свой цвет и компоновка', 'Подбираем цвет корпуса и расположение узлов под вас, а не по каталогу.']
+  ];
+
+  SPOTS_TRAILER = [
+    { n: 1, x: 300, y: 214, title: 'Спальное место 1400 × 2000', text: 'Настил из фанеры, матрас на всю ширину, изголовье с полками. Люк над головой и окно с сеткой дают сквозную вентиляцию.', meta: 'Матрас входит в базу · детский матрас — опция' },
+    { n: 2, x: 655, y: 198, title: 'Кухонный блок', text: 'Открывается откидной крышкой на газлифтах. Раковина со смесителем, бак 20 л, насос 12 В и рабочая столешница.', meta: 'В базе · бак 80 л и подогрев воды — опции' },
+    { n: 3, x: 596, y: 266, title: 'Вместительные ящики', text: 'Ящики для посуды, продуктов и снаряжения с фиксацией — ничего не гремит на грунтовке.', meta: 'В базе · раскрой под ваш набор посуды' },
+    { n: 4, x: 462, y: 162, title: 'Полная электрификация', text: 'Розетки 12 В во всех узлах, светодиодный свет, электроподготовка под дополнительное оборудование.', meta: 'В базе · панель и усиленный АКБ — опции' },
+    { n: 5, x: 300, y: 142, title: 'Монолитный корпус', text: 'Фанера 21 мм с монолитным стеклопластиковым покрытием и защитным Raptor. Крыша защищена от солнца.', meta: 'В базе · цвет подбираем под вас' },
+    { n: 6, x: 470, y: 322, title: 'Надёжное шасси', text: 'Одна ось, рессорная подвеска, опорное колесо и подставки. Права категории B.', meta: 'В базе · внедорожная резина — опция' }
+  ];
+
+  SPOTS_BOX = [
+    { n: 1, x: 556, y: 206, title: 'Спальный настил', text: 'Ровная площадка под матрас разворачивается из багажника в салон. В версии Икса настила нет — только кухонный блок.', meta: 'Томь · в базе' },
+    { n: 2, x: 742, y: 232, title: 'Кухонный блок', text: 'Выдвигается за задний борт: столешница, раковина со смесителем и место под переносную плиту. Готовите стоя, на улице.', meta: 'Томь · в базе, Икса · без раковины' },
+    { n: 3, x: 560, y: 288, title: 'Вместительные ящики', text: 'Выкатные ящики на направляющих: посуда, продукты, снаряжение. Открываются, не разбирая спальное место.', meta: 'В базе обеих версий' },
+    { n: 4, x: 668, y: 288, title: 'Вода и розетки', text: 'Бак 20 л с насосом 12 В в Томи, канистра 10 л в Иксе. Розетки 12 В и USB рядом со столешницей.', meta: 'Томь · в базе' },
+    { n: 5, x: 492, y: 332, title: 'Крепление без переделок', text: 'Кемпербокс опирается на пол багажника и фиксируется штатными петлями. Ни одного отверстия в кузове — снял, и машина снова обычная.', meta: 'В базе обеих версий' }
+  ];
+
+  OPTS = [
+    ['Вода и кухня', [
+      ['tank80', 'Бак воды 80 л', 24000, 'вместо стандартного 20 л', 'trailer'],
+      ['heatwater', 'Подогрев воды в баке', 29000, '', 'trailer'],
+      ['gasfix', 'Газовая плита стационарная', 16000, 'встроена в столешницу', 'all'],
+      ['gasport', 'Газовая плита переносная', 9000, 'с отсеком для баллона', 'all']
+    ]],
+    ['Энергия', [
+      ['solar', 'Солнечная панель 200 Вт', 34000, '', 'trailer'],
+      ['bat', 'Усиленный АКБ', 39000, '', 'trailer'],
+      ['ac', 'Кондиционер', 96000, 'панель и АКБ добавляются автоматически', 'trailer'],
+      ['lamps', 'Светильники для чтения', 7000, '', 'all']
+    ]],
+    ['Сон и тепло', [
+      ['kidmat', 'Детский матрас', 12000, '', 'trailer'],
+      ['heater', 'Автономный отопитель 5 кВт', 68000, '', 'trailer']
+    ]],
+    ['Снаружи', [
+      ['awning', 'Маркиза 2,5 м', 24000, '', 'trailer'],
+      ['awningwalls', 'Маркиза со стенками', 41000, 'боковые шторы по кругу', 'trailer'],
+      ['shower', 'Душ-маркиза', 22000, '', 'trailer'],
+      ['rack', 'Багажник на крышу', 19000, '', 'all'],
+      ['tyres', 'Внедорожная резина', 38000, 'с изменением формы крыльев', 'trailer']
+    ]],
+    ['Отделка', [
+      ['rubber', 'Внутренние панели в цвет', 18000, 'резиновая краска', 'all'],
+      ['engrave', 'Фрезерованное лого на панели', 4000, '', 'all']
+    ]]
+  ];
+
+  money(v) { return v.toLocaleString('ru-RU') + ' ₽'; }
+
+  componentDidMount() {
+    this.onScroll = () => {
+      if (this.state.page !== 'home' || (this.props.routeAnimation ?? true) === false) return;
+      const el = this.roadEl;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      const span = r.height - window.innerHeight;
+      if (span <= 0) { if (this.state.routeP !== 1) this.setState({ routeP: 1 }); return; }
+      let p = Math.max(0, Math.min(1, (-r.top) / span));
+      const q = Math.round(p * 120) / 120;
+      if (q !== this.state.routeP) this.setState({ routeP: q });
+    };
+    this.raf = null;
+    this.tick = () => {
+      if (this.raf) return;
+      this.raf = requestAnimationFrame(() => { this.raf = null; this.onScroll(); });
+    };
+    window.addEventListener('scroll', this.tick, { passive: true });
+    document.addEventListener('scroll', this.tick, { capture: true, passive: true });
+    window.addEventListener('resize', this.tick, { passive: true });
+    this.onScroll();
+    this.setState({ playing: this.props.galleryAutoplay ?? false }, () => this.syncTimer());
+  }
+
+  syncTimer() {
+    if (this.timer) { clearInterval(this.timer); this.timer = null; }
+    if (this.state.playing) this.timer = setInterval(() => this.setState(s => ({ gi: (s.gi + 1) % 6 })), 6000);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.tick);
+    document.removeEventListener('scroll', this.tick, { capture: true });
+    window.removeEventListener('resize', this.tick);
+    if (this.timer) clearInterval(this.timer);
+    if (this.raf) cancelAnimationFrame(this.raf);
+  }
+
+  /* маршрут идёт сверху вниз — по направлению прокрутки */
+  bez(t) {
+    const p0 = [60, 58], p1 = [352, 172], p2 = [64, 372], p3 = [356, 498], mt = 1 - t;
+    const x = mt * mt * mt * p0[0] + 3 * mt * mt * t * p1[0] + 3 * mt * t * t * p2[0] + t * t * t * p3[0];
+    const y = mt * mt * mt * p0[1] + 3 * mt * mt * t * p1[1] + 3 * mt * t * t * p2[1] + t * t * t * p3[1];
+    const dx = 3 * mt * mt * (p1[0] - p0[0]) + 6 * mt * t * (p2[0] - p1[0]) + 3 * t * t * (p3[0] - p2[0]);
+    const dy = 3 * mt * mt * (p1[1] - p0[1]) + 6 * mt * t * (p2[1] - p1[1]) + 3 * t * t * (p3[1] - p2[1]);
+    let a = Math.atan2(dy, dx) * 180 / Math.PI;
+    if (a > 90) a -= 180; else if (a < -90) a += 180;
+    return { x, y, a: Math.max(-26, Math.min(26, a)) };
+  }
+
+  logo(size, color) {
+    const h = React.createElement;
+    return h('svg', { viewBox: '0 0 100 100', width: size, height: size, role: 'img', 'aria-label': 'Знак Торба «Люк»' },
+      h('path', {
+        fill: color, fillRule: 'evenodd',
+        d: 'M0,34 A34,34 0 0 1 34,0 L66,0 A34,34 0 0 1 100,34 L100,88 A12,12 0 0 1 88,100 L12,100 A12,12 0 0 1 0,88 Z M37,19 L63,19 A6,6 0 0 1 63,31 L37,31 A6,6 0 0 1 37,19 Z'
+      })
+    );
+  }
+
+  roadSvg() {
+    const h = React.createElement;
+    const p = this.state.routeP;
+    const pos = this.bez(p);
+    const d = 'M60 58 C352 172 64 372 356 498';
+    const n = this.ADV.length;
+    const active = Math.min(n - 1, Math.floor(p * n + 0.0001));
+    const dots = this.ADV.map((_, i) => {
+      const q = this.bez((i + 0.5) / n);
+      const on = i <= active;
+      return h('circle', { key: 'd' + i, cx: q.x, cy: q.y, r: i === active ? 10 : 6.5, fill: on ? 'var(--color-accent)' : 'var(--color-neutral-300)', stroke: 'var(--color-bg)', strokeWidth: 3 });
+    });
+    const camper = h('g', { transform: 'translate(' + pos.x.toFixed(1) + ',' + pos.y.toFixed(1) + ') rotate(' + pos.a.toFixed(1) + ')' },
+      h('path', { d: 'M-27 12 C-27 -5 -16 -13 -3 -13 L7 -13 C19 -11 25 0 27 12 Z', fill: 'var(--color-accent-2-900)' }),
+      h('circle', { cx: -7, cy: -1, r: 5.4, fill: 'var(--color-neutral-100)' }),
+      h('circle', { cx: 2, cy: 13, r: 5.2, fill: 'var(--color-neutral-900)' })
+    );
+    return h('svg', { viewBox: '0 0 420 540', style: { width: '100%', height: '100%', maxHeight: '100%', display: 'block' } },
+      h('circle', { cx: 322, cy: 462, r: 104, fill: 'var(--color-accent-2-200)' }),
+      h('circle', { cx: 96, cy: 148, r: 78, fill: 'var(--color-accent-2-200)' }),
+      h('path', { d: 'M240 480 L268 400 L296 480 Z', fill: 'var(--color-accent-2-400)' }),
+      h('path', { d: 'M300 486 L322 424 L344 486 Z', fill: 'var(--color-accent-2-500)' }),
+      h('path', { d: 'M62 300 L84 240 L106 300 Z', fill: 'var(--color-accent-2-400)' }),
+      h('path', { d: d, stroke: 'var(--color-neutral-300)', strokeWidth: 13, fill: 'none', strokeLinecap: 'round' }),
+      h('path', { d: d, stroke: 'var(--color-accent)', strokeWidth: 13, fill: 'none', strokeLinecap: 'round', pathLength: 1, strokeDasharray: p.toFixed(3) + ' 1' }),
+      dots,
+      camper
+    );
+  }
+
+  spotNodes(list) {
+    const h = React.createElement;
+    const act = Math.min(this.state.hs, list.length - 1);
+    return list.map((s, i) => h('g', {
+      key: 's' + i, transform: 'translate(' + s.x + ',' + s.y + ')', style: { cursor: 'pointer' },
+      onClick: () => this.setState({ hs: i })
+    },
+      h('circle', { r: i === act ? 28 : 23, fill: i === act ? 'var(--color-accent)' : 'var(--color-neutral-100)', stroke: i === act ? 'var(--color-bg)' : 'var(--color-accent)', strokeWidth: 3.5 }),
+      h('text', { x: 0, y: 8, textAnchor: 'middle', fontFamily: 'var(--font-mono)', fontWeight: 500, fontSize: 21, fill: i === act ? 'var(--color-bg)' : 'var(--color-accent-700)' }, String(s.n))
+    ));
+  }
+
+  /* прицеп — одноосный, вид сбоку */
+  cutawayTrailer() {
+    const h = React.createElement;
+    return h('svg', { viewBox: '0 0 920 430', style: { width: '100%', height: 'auto', display: 'block' } },
+      h('ellipse', { cx: 460, cy: 372, rx: 380, ry: 20, fill: 'var(--color-neutral-300)' }),
+      h('path', { d: 'M150 340 C150 200 240 132 380 126 L640 132 C742 150 790 236 796 340 Z', fill: 'var(--color-accent-2-800)' }),
+      h('path', { d: 'M168 330 C168 212 250 150 382 145 L632 150 C726 166 772 244 778 330 Z', fill: 'var(--color-neutral-200)' }),
+      h('rect', { x: 196, y: 244, width: 330, height: 18, rx: 9, fill: 'var(--color-accent-2-400)' }),
+      h('rect', { x: 196, y: 262, width: 330, height: 64, rx: 12, fill: 'var(--color-neutral-300)' }),
+      h('rect', { x: 556, y: 184, width: 208, height: 16, rx: 8, fill: 'var(--color-accent-2-400)' }),
+      h('rect', { x: 574, y: 212, width: 78, height: 62, rx: 10, fill: 'var(--color-neutral-300)' }),
+      h('rect', { x: 664, y: 212, width: 90, height: 62, rx: 10, fill: 'var(--color-neutral-300)' }),
+      h('rect', { x: 574, y: 286, width: 180, height: 40, rx: 10, fill: 'var(--color-neutral-300)' }),
+      h('rect', { x: 412, y: 150, width: 120, height: 12, rx: 6, fill: 'var(--color-accent-2-300)' }),
+      h('rect', { x: 150, y: 336, width: 646, height: 14, rx: 7, fill: 'var(--color-neutral-800)' }),
+      h('circle', { cx: 470, cy: 362, r: 36, fill: 'var(--color-neutral-900)' }),
+      h('circle', { cx: 470, cy: 362, r: 14, fill: 'var(--color-neutral-400)' }),
+      h('path', { d: 'M150 344 L74 356 L74 366', stroke: 'var(--color-neutral-800)', strokeWidth: 10, fill: 'none', strokeLinecap: 'round' }),
+      this.spotNodes(this.SPOTS_TRAILER)
+    );
+  }
+
+  /* кемпербокс: универсал с открытым багажником, модуль только в багажном отсеке */
+  cutawayBox() {
+    const h = React.createElement;
+    return h('svg', { viewBox: '0 0 920 430', style: { width: '100%', height: 'auto', display: 'block' } },
+      h('ellipse', { cx: 440, cy: 374, rx: 390, ry: 20, fill: 'var(--color-neutral-300)' }),
+      /* кузов: капот и салон слева, багажный проём справа */
+      h('path', { d: 'M96 332 L96 300 C96 276 112 266 150 260 L262 250 C300 206 352 190 424 188 L520 190 C570 194 600 210 614 240 L618 252 L706 260 C740 266 754 280 756 300 L756 332 Z', fill: 'var(--color-accent-2-800)' }),
+      /* стёкла */
+      h('path', { d: 'M302 250 C330 214 366 200 420 198 L468 199 L468 246 Z', fill: 'var(--color-accent-2-300)' }),
+      h('rect', { x: 480, y: 200, width: 108, height: 46, rx: 8, fill: 'var(--color-accent-2-300)' }),
+      /* открытая дверь багажника */
+      h('path', { d: 'M612 238 L716 128', stroke: 'var(--color-accent-2-800)', strokeWidth: 12, strokeLinecap: 'round' }),
+      h('path', { d: 'M626 224 L702 144', stroke: 'var(--color-accent-2-300)', strokeWidth: 6, strokeLinecap: 'round' }),
+      /* спинка заднего ряда */
+      h('rect', { x: 452, y: 212, width: 22, height: 86, rx: 8, fill: 'var(--color-accent-2-400)' }),
+      /* модуль в багажном отсеке */
+      h('rect', { x: 484, y: 246, width: 250, height: 12, rx: 6, fill: 'var(--color-accent-2-400)' }),
+      h('rect', { x: 484, y: 258, width: 250, height: 62, rx: 8, fill: 'var(--color-neutral-200)' }),
+      h('rect', { x: 494, y: 266, width: 106, height: 46, rx: 6, fill: 'var(--color-neutral-300)' }),
+      h('rect', { x: 610, y: 266, width: 114, height: 46, rx: 6, fill: 'var(--color-neutral-300)' }),
+      /* выдвинутый за борт ящик-кухня */
+      h('rect', { x: 742, y: 268, width: 64, height: 44, rx: 6, fill: 'var(--color-neutral-300)' }),
+      h('path', { d: 'M736 292 L810 292', stroke: 'var(--color-neutral-400)', strokeWidth: 4, strokeLinecap: 'round' }),
+      /* пол и колёса */
+      h('rect', { x: 96, y: 328, width: 660, height: 12, rx: 6, fill: 'var(--color-neutral-800)' }),
+      h('circle', { cx: 218, cy: 352, r: 34, fill: 'var(--color-neutral-900)' }),
+      h('circle', { cx: 218, cy: 352, r: 13, fill: 'var(--color-neutral-400)' }),
+      h('circle', { cx: 600, cy: 352, r: 34, fill: 'var(--color-neutral-900)' }),
+      h('circle', { cx: 600, cy: 352, r: 13, fill: 'var(--color-neutral-400)' }),
+      h('rect', { x: 98, y: 284, width: 14, height: 10, rx: 4, fill: 'var(--color-accent-2-300)' }),
+      this.spotNodes(this.SPOTS_BOX)
+    );
+  }
+
+  optIcon(key) {
+    const h = React.createElement;
+    const P = (d, extra) => h('svg', Object.assign({ width: 20, height: 20, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 2.2, strokeLinecap: 'round', strokeLinejoin: 'round', 'aria-hidden': true }, extra), ...(Array.isArray(d) ? d : [d]).map((x, i) => h('path', { key: i, d: x })));
+    switch (key) {
+      case 'tank80': return P('M12 3 C12 3 6 10 6 14 a6 6 0 0 0 12 0 C18 10 12 3 12 3 Z');
+      case 'heatwater': return P(['M12 3 C12 3 7 9 7 13 a5 5 0 0 0 10 0 C17 9 12 3 12 3 Z', 'M5 21 h14']);
+      case 'gasfix': case 'gasport': return P('M12 3 C13 7 17 9 17 14 a5 5 0 0 1 -10 0 C7 10 11 8 12 3 Z');
+      case 'solar': return P(['M4 7 h16 v10 H4 Z', 'M4 12 h16', 'M9.3 7 v10', 'M14.6 7 v10']);
+      case 'bat': return P(['M4 9 h13 v8 H4 Z', 'M20 11 v4', 'M17 9 v8']);
+      case 'ac': return P(['M12 3 v18', 'M4.2 7.5 l15.6 9', 'M19.8 7.5 l-15.6 9']);
+      case 'lamps': return P(['M8 10 a4 4 0 1 1 8 0 c0 2.5 -2 3 -2 5 h-4 c0 -2 -2 -2.5 -2 -5 Z', 'M10 18 h4']);
+      case 'kidmat': return P(['M4 17 v-7', 'M4 13 h16 v4', 'M8 13 a2 2 0 1 0 0 -4 a2 2 0 0 0 0 4']);
+      case 'heater': return P(['M8 4 C9 7 12 8 12 11 a4 4 0 0 1 -8 0 C4 8 7 7 8 4 Z', 'M15 8 h5', 'M15 12 h5', 'M15 16 h4']);
+      case 'awning': case 'awningwalls': return P(['M3 10 L12 5 L21 10', 'M5 10 v8', 'M19 10 v8', 'M5 10 a7 3.4 0 0 0 14 0']);
+      case 'shower': return P(['M7 6 a5 5 0 0 1 10 0 v2 H7 Z', 'M9 12 v2', 'M12 12 v3', 'M15 12 v2']);
+      case 'rack': return P(['M4 9 h16', 'M7 9 v-3', 'M17 9 v-3', 'M4 13 h16']);
+      case 'tyres': return P(['M12 4 a8 8 0 1 0 0 16 a8 8 0 0 0 0 -16', 'M12 9 a3 3 0 1 0 0 6 a3 3 0 0 0 0 -6']);
+      case 'rubber': return P(['M4 5 h12 v5 H4 Z', 'M16 7 h4 v4 h-6', 'M14 13 v4', 'M13 17 h2 v4 h-2 Z']);
+      case 'engrave': return P(['M4 16 L9 6 L13 13 L15 10 L20 16 Z', 'M4 19 h16']);
+      default: return P('M5 12 h14');
+    }
+  }
+
+  renderVals() {
+    const st = this.state;
+    const showPrices = this.props.showPrices ?? true;
+    const price = v => showPrices ? this.money(v) : 'цена по запросу';
+
+    const nav = (page, hash) => e => {
+      if (e && e.preventDefault) e.preventDefault();
+      if (page) this.setState({ page }, () => window.scrollTo(0, 0));
+      if (hash) {
+        const jump = () => {
+          const el = document.getElementById(hash);
+          if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.pageYOffset - 84, behavior: 'smooth' });
+        };
+        if (st.page !== 'home') this.setState({ page: 'home' }, () => setTimeout(jump, 60)); else jump();
+      }
+    };
+
+    const openModel = id => e => { if (e && e.preventDefault) e.preventDefault(); this.setState({ page: 'model', modelId: id, mi: 0 }, () => window.scrollTo(0, 0)); };
+    const build = id => e => { if (e && e.preventDefault) e.preventDefault(); if (e && e.stopPropagation) e.stopPropagation(); this.setState({ page: 'builder', bBase: id }, () => window.scrollTo(0, 0)); };
+
+    const decorate = m => ({
+      id: m.id, name: m.name, kindLabel: m.kindLabel, kindShort: m.kindShort, lead: m.lead, long: m.long, photo: m.photo, short: m.short, alt: m.alt,
+      priceLabel: price(m.price),
+      chips: m.chips.map(t => ({ t })),
+      specs: m.specs.map(s => ({ k: s[0], v: s[1] })),
+      kit: m.kit.map(t => ({ t })),
+      open: openModel(m.id), build: build(m.id)
+    });
+
+    const curRaw = this.MODELS.find(m => m.id === st.modelId) || this.MODELS[0];
+    const cur = decorate(curRaw);
+    const shots = curRaw.gallery;
+    const mi = st.mi % shots.length;
+
+    const curFeatures = this.FEATURES.map(f => {
+      const v = (curRaw.feat || {})[f[0]] || 'n';
+      return {
+        label: f[1],
+        mark: v === 'b' ? '✓' : v === 'o' ? '+' : '—',
+        bg: v === 'b' ? 'var(--color-accent-2-200)' : v === 'o' ? 'var(--color-bg)' : 'color-mix(in srgb, var(--color-bg) 55%, transparent)',
+        mBg: v === 'b' ? 'var(--color-accent-2-900)' : v === 'o' ? 'var(--color-accent)' : 'var(--color-neutral-300)',
+        mColor: v === 'n' ? 'var(--color-neutral-600)' : 'var(--color-neutral-100)',
+        color: v === 'n' ? 'var(--color-neutral-500)' : 'var(--color-text)'
+      };
+    });
+
+    const spreads = [
+      { imgs: [[__res('hero-altai','jpg'), 'Кемпер у Телецкого озера']], label: 'Телецкое озеро, первый снег в мае', video: false },
+      { imgs: [[__res('torba-kemperboks-v-bagazhnike','png'), 'Кемпербокс Торба в багажнике автомобиля'], [__res('torba-kemperboks-na-otdyhe','jpg'), 'Кемпербокс Торба на стоянке']], label: 'Кемпербокс Торба в багажнике автомобиля', video: false },
+      { imgs: [[__res('ext-street','jpg'), 'Кемпер на улице'], [__res('ext-forest','jpg'), 'Кемпер в лесу'], [__res('ext-city','jpg'), 'Кемпер в городе']], label: 'Город, лес, дорога — один и тот же кемпер', video: false },
+      { imgs: [[__res('int-kitchen-open','jpg'), 'Открытый кухонный блок']], label: 'Кухонный блок открывается одним жестом · видео', video: true },
+      { imgs: [[__res('int-galley','jpg'), 'Кухонный блок'], [__res('int-sink','jpg'), 'Раковина'], [__res('int-bed','jpg'), 'Спальное место']], label: 'Внутри: кухня, вода, спальное место', video: false },
+      { imgs: [[__res('det-cutlery','jpg'), 'Ящик для посуды'], [__res('det-spices','jpg'), 'Полка и розетки'], [__res('det-gas','jpg'), 'Отсек для газа'], [__res('det-storage','jpg'), 'Хозяйственный отсек']], label: 'Всё своё ношу с собой', video: false }
+    ];
+    const gi = st.gi % spreads.length;
+    const stepGal = d => { this.setState(s => ({ gi: (s.gi + spreads.length + d) % spreads.length })); };
+
+    const baseModel = this.MODELS.find(m => m.id === st.bBase) || this.MODELS[0];
+    const acOn = !!st.bOpts.ac;
+    let total = baseModel.price;
+    const chosen = [];
+    const optGroups = this.OPTS.map(g => {
+      const items = g[1].filter(o => o[4] === 'all' || o[4] === baseModel.kind).map(o => {
+        const included = (baseModel.includedOpts || []).indexOf(o[0]) !== -1;
+        const forced = included || (acOn && (o[0] === 'solar' || o[0] === 'bat'));
+        const on = !!st.bOpts[o[0]] || forced;
+        if (on && !forced) { total += o[2]; chosen.push({ name: o[1], priceLabel: '+ ' + this.money(o[2]) }); }
+        return {
+          name: o[1], note: included ? 'входит в базовую комплектацию' : (forced ? 'входит в комплект с кондиционером' : o[3]),
+          priceLabel: included ? 'в базе' : (forced ? 'включено' : '+ ' + this.money(o[2])), check: on ? '✓' : '',
+          icon: this.optIcon(o[0]),
+          icoBg: on ? 'var(--color-accent-2-900)' : 'var(--color-accent-2-100)',
+          icoColor: on ? 'var(--color-neutral-100)' : 'var(--color-accent-2-700)',
+          bd: on ? 'var(--color-accent)' : 'var(--color-divider)',
+          bg: on ? 'var(--color-accent-100)' : 'var(--color-surface)',
+          boxBd: on ? 'var(--color-accent)' : 'var(--color-neutral-400)',
+          boxBg: on ? 'var(--color-accent)' : 'transparent',
+          toggle: () => { if (forced) return; this.setState(s => ({ bOpts: Object.assign({}, s.bOpts, { [o[0]]: !s.bOpts[o[0]] }) })); }
+        };
+      });
+      return { title: g[0], items };
+    }).filter(g => g.items.length);
+
+    const nOpt = chosen.length;
+    const plural = nOpt === 0 ? 'только база' : nOpt === 1 ? '1 позиция' : nOpt < 5 ? nOpt + ' позиции' : nOpt + ' позиций';
+
+    const filtered = st.filter === 'all' ? this.MODELS : this.MODELS.filter(m => m.kind === st.filter);
+    const fcls = f => st.filter === f ? 'btn-primary' : 'btn-secondary';
+
+    const submit = e => {
+      if (e && e.preventDefault) e.preventDefault();
+      const who = st.fName ? st.fName : 'Друг';
+      this.setState({ sent: true, sentSummary: who + ', спасибо! Интересует: ' + st.fModel + '. Свяжемся по ' + (st.fPhone || 'указанному контакту') + ' в течение дня.' });
+    };
+
+    const spots = st.tab === 'box' ? this.SPOTS_BOX : this.SPOTS_TRAILER;
+    const hs = Math.min(st.hs, spots.length - 1);
+
+    return {
+      isHome: st.page === 'home', isCatalog: st.page === 'catalog', isModel: st.page === 'model', isBuilder: st.page === 'builder',
+      goHome: nav('home'), goCatalog: nav('catalog'), goBuilder: nav('builder'),
+      goCatalogBox: e => { if (e && e.preventDefault) e.preventDefault(); this.setState({ page: 'catalog', filter: 'box' }, () => window.scrollTo(0, 0)); },
+      goCatalogTrailer: e => { if (e && e.preventDefault) e.preventDefault(); this.setState({ page: 'catalog', filter: 'trailer' }, () => window.scrollTo(0, 0)); },
+      jumpDevice: nav(null, 'device'), jumpCraft: nav(null, 'craft'), jumpContact: nav(null, 'contacts'),
+      jumpAbout: nav(null, 'about'), jumpContacts: nav(null, 'contacts'),
+      jumpTrailer: nav(null, 'dir-trailer'), jumpBox: nav(null, 'dir-box'),
+
+      roadRef: el => { this.roadEl = el; },
+      roadDiagram: this.roadSvg(),
+      advantages: this.ADV.map((a, i) => {
+        const idx = Math.min(this.ADV.length - 1, Math.floor(st.routeP * this.ADV.length + 0.0001));
+        const on = i === idx;
+        return {
+          n: '0' + (i + 1), title: a[0], text: a[1],
+          op: on ? 1 : 0.32,
+          numBg: on ? 'var(--color-accent)' : 'var(--color-surface)',
+          numColor: on ? 'var(--color-bg)' : 'var(--color-neutral-600)'
+        };
+      }),
+
+      models: this.MODELS.map(decorate),
+      catModels: filtered.map(decorate),
+      cur, curBuild: build(cur.id), curRequest: nav(null, 'contacts'),
+      curShot: shots[mi][0], curShotAlt: shots[mi][1],
+      curThumbs: shots.map((g, i) => ({ src: g[0], alt: g[1], bd: i === mi ? 'var(--color-accent)' : 'transparent', go: () => this.setState({ mi: i }) })),
+      curPrev: () => this.setState(s => ({ mi: (s.mi + shots.length - 1) % shots.length })),
+      curNext: () => this.setState(s => ({ mi: (s.mi + 1) % shots.length })),
+      curFeatures,
+      filtAll: () => this.setState({ filter: 'all' }), filtBox: () => this.setState({ filter: 'box' }), filtTrailer: () => this.setState({ filter: 'trailer' }),
+      filtAllCls: fcls('all'), filtBoxCls: fcls('box'), filtTrailerCls: fcls('trailer'),
+
+      spreads: spreads.map(s => ({ imgs: s.imgs.map(i => ({ src: i[0], alt: i[1] })) })),
+      galShift: '-' + gi * 100 + '%',
+      galIsVideo: spreads[gi].video,
+      galLabel: spreads[gi].label,
+      galCounter: (gi + 1) + ' / ' + spreads.length,
+      galDots: spreads.map((s, i) => ({ w: i === gi ? '30px' : '8px', bg: i === gi ? 'var(--color-accent)' : 'var(--color-neutral-400)', go: () => this.setState({ gi: i }) })),
+      galPrev: () => stepGal(-1),
+      galNext: () => stepGal(1),
+      galPlayLabel: st.playing ? '❙❙ Пауза' : '▶ Слайд-шоу',
+      galToggle: () => this.setState(s => ({ playing: !s.playing }), () => this.syncTimer()),
+      galTouchStart: e => { this.tx = e.touches && e.touches[0] ? e.touches[0].clientX : null; },
+      galTouchEnd: e => {
+        if (this.tx == null || !e.changedTouches || !e.changedTouches[0]) return;
+        const dx = e.changedTouches[0].clientX - this.tx;
+        this.tx = null;
+        if (Math.abs(dx) > 42) stepGal(dx < 0 ? 1 : -1);
+      },
+
+      tabTrailer: () => this.setState({ tab: 'trailer', hs: 0 }),
+      tabBox: () => this.setState({ tab: 'box', hs: 0 }),
+      tabTrailerCls: st.tab === 'trailer' ? 'btn-primary' : 'btn-ghost',
+      tabBoxCls: st.tab === 'box' ? 'btn-primary' : 'btn-ghost',
+      isBoxTab: st.tab === 'box',
+      cutaway: st.tab === 'box' ? this.cutawayBox() : this.cutawayTrailer(),
+      spotNum: '0' + spots[hs].n,
+      spotTitle: spots[hs].title,
+      spotText: spots[hs].text,
+      spotMeta: spots[hs].meta,
+      spotList: spots.map((s, i) => ({
+        n: s.n, title: s.title, pick: () => this.setState({ hs: i }),
+        bd: i === hs ? 'var(--color-accent)' : 'var(--color-divider)',
+        bg: i === hs ? 'var(--color-accent-100)' : 'var(--color-surface)',
+        dot: i === hs ? 'var(--color-accent)' : 'var(--color-bg)',
+        dotText: i === hs ? 'var(--color-bg)' : 'var(--color-accent-700)'
+      })),
+
+      baseCards: this.MODELS.map(m => ({
+        name: m.name, kindShort: m.kindShort, short: m.short, priceLabel: price(m.price),
+        bd: st.bBase === m.id ? 'var(--color-accent)' : 'transparent',
+        bg: st.bBase === m.id ? 'var(--color-accent-100)' : 'var(--color-surface)',
+        pick: () => this.setState({ bBase: m.id })
+      })),
+      bBaseKit: baseModel.kit.map(t => ({ t })),
+      optGroups,
+      bBaseName: baseModel.name, bBasePrice: price(baseModel.price),
+      bChosen: chosen, bEmpty: chosen.length === 0, bCount: plural,
+      bTotal: showPrices ? this.money(total) : 'расчёт по запросу',
+      bSubmit: () => this.setState({ page: 'home' }, () => {
+        const el = document.getElementById('contacts');
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.pageYOffset - 84, behavior: 'smooth' });
+      }),
+      bReset: () => this.setState({ bOpts: {} }),
+
+      legalPrivacy: st.legal === 'privacy', legalTerms: st.legal === 'terms',
+      openPrivacy: () => this.setState({ legal: 'privacy' }),
+      openTerms: () => this.setState({ legal: 'terms' }),
+      closeLegal: () => this.setState({ legal: null }),
+      stopProp: e => { if (e && e.stopPropagation) e.stopPropagation(); },
+
+      notSent: !st.sent, sent: st.sent, sentSummary: st.sentSummary,
+      fName: st.fName, fPhone: st.fPhone, fModel: st.fModel, fMsg: st.fMsg,
+      setName: e => this.setState({ fName: e.target.value }),
+      setPhone: e => this.setState({ fPhone: e.target.value }),
+      setModel: e => this.setState({ fModel: e.target.value }),
+      setMsg: e => this.setState({ fMsg: e.target.value }),
+      submit, resetForm: () => this.setState({ sent: false, fName: '', fPhone: '', fMsg: '' })
+    };
+  }
+}
+</script>
+
+
+</body></html>
