@@ -5,8 +5,9 @@
 //
 // Что делает:
 //   1. распаковывает бандл в index.html + assets/  (tools/unpack.js)
-//   2. проставляет lang="ru" и вставляет метатеги из tools/head.html
-//   3. делает 404.html копией главной
+//   2. применяет правки из tools/replacements.json
+//   3. проставляет lang="ru" и вставляет метатеги из tools/head.html
+//   4. делает 404.html копией главной
 //
 // Правки текста метатегов — в tools/head.html, не в index.html:
 // index.html перезаписывается при каждой сборке.
@@ -29,6 +30,27 @@ execFileSync(process.execPath, [path.join(__dirname, 'unpack.js'), bundle, root]
 
 const indexPath = path.join(root, 'index.html');
 let html = fs.readFileSync(indexPath, 'utf8');
+
+// Правки поверх выгрузки: то, что сломано в самом артефакте Claude и что
+// иначе возвращалось бы при каждой сборке. Если правило перестало находиться —
+// значит, исходник починили, и правило пора удалить.
+const rulesPath = path.join(__dirname, 'replacements.json');
+if (fs.existsSync(rulesPath)) {
+  const rules = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
+  for (const rule of rules) {
+    const count = html.split(rule.from).length - 1;
+    if (count === 0) {
+      console.error(
+        'ВНИМАНИЕ: правило из replacements.json больше не находит совпадений — ' +
+          'видимо, исправлено в артефакте. Можно удалить.\n  ' +
+          (rule.note || rule.from)
+      );
+    } else {
+      html = html.split(rule.from).join(rule.to);
+      console.error(`правка применена (${count} шт.): ${rule.note || rule.from}`);
+    }
+  }
+}
 
 if (!/<html[^>]*\slang=/i.test(html)) {
   html = html.replace(/<html\b/i, '<html lang="ru"');
