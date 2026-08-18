@@ -3,5 +3,10 @@
     "note": "Ссылка на профиль MAX в выгрузке артефакта обрезана на один символ (не хватает финальной I). Правка держится здесь, пока не исправлено в самом артефакте Claude.",
     "from": "https://max.ru/u/f9LHodD0cOIL4s93Or7JHoLAU18uflV-gCbXXUBu578QYjHMc7d5-dcXiI\"",
     "to": "https://max.ru/u/f9LHodD0cOIL4s93Or7JHoLAU18uflV-gCbXXUBu578QYjHMc7d5-dcXiII\""
+  },
+  {
+    "note": "Отступ перед блоком «Модельный ряд»: секция начиналась вплотную к road-wrap, и залипающая анимация кемпера накладывалась на заголовок. Отступ сделан как margin, а не padding, чтобы не сбить якорь #models (scroll-margin-top).",
+    "from": "<section id=\"models\" style=\"max-width:1320px;margin:0 auto;padding:40px 30px 0;scroll-margin-top:90px\">",
+    "to": "<section id=\"models\" style=\"max-width:1320px;margin:140px auto 0;padding:40px 30px 0;scroll-margin-top:90px\">"
   }
 ]
